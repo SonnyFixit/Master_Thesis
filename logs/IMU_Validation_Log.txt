@@ -1,0 +1,1527 @@
+Log created on: 2024-08-27 23:13:04
+==================================================
+
+===== Child ID: 001 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152125 - 001 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152130 - 001 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152129 - 001 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152131 - 001 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 001 have consistent dimensions: 418 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_001.npy with shape (130, 100, 24).
+
+===== Child ID: 002 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152133 - 002 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152138 - 002 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152136 - 002 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152140 - 002 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 002 have consistent dimensions: 816 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_002.npy with shape (130, 100, 24).
+
+===== Child ID: 003 =====
+Binary classification: FM-
+Three-class classification: FM-
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152141 - 003 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152143 - 003 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152142 - 003 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152143 - 003 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 003 have consistent dimensions: 359 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_003.npy with shape (130, 100, 24).
+
+===== Child ID: 004 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152144 - 004 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152145 - 004 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152145 - 004 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152146 - 004 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 004 have consistent dimensions: 403 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_004.npy with shape (130, 100, 24).
+
+===== Child ID: 005 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152147 - 005 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152148 - 005 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152147 - 005 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152148 - 005 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 005 have consistent dimensions: 335 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_005.npy with shape (130, 100, 24).
+
+===== Child ID: 006 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152149 - 006 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152150 - 006 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152150 - 006 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152151 - 006 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 006 have consistent dimensions: 337 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_006.npy with shape (130, 100, 24).
+
+===== Child ID: 007 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152152 - 007 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152153 - 007 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152152 - 007 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152154 - 007 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 007 have consistent dimensions: 383 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_007.npy with shape (130, 100, 24).
+
+===== Child ID: 008 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152154 - 008 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152156 - 008 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152155 - 008 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152156 - 008 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 008 have consistent dimensions: 406 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_008.npy with shape (130, 100, 24).
+
+===== Child ID: 009 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152157 - 009 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152158 - 009 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152158 - 009 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152159 - 009 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 009 have consistent dimensions: 302 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_009.npy with shape (130, 100, 24).
+
+===== Child ID: 010 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152200 - 010 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152203 - 010 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152202 - 010 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152205 - 010 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 010 have consistent dimensions: 617 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_010.npy with shape (130, 100, 24).
+
+===== Child ID: 011 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152205 - 011 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152207 - 011 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152206 - 011 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152208 - 011 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 011 have consistent dimensions: 424 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_011.npy with shape (130, 100, 24).
+
+===== Child ID: 012 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152208 - 012 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152210 - 012 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152209 - 012 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152211 - 012 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 012 have consistent dimensions: 482 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_012.npy with shape (130, 100, 24).
+
+===== Child ID: 013 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152211 - 013 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152212 - 013 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152212 - 013 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152213 - 013 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 013 have consistent dimensions: 372 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_013.npy with shape (130, 100, 24).
+
+===== Child ID: 014 =====
+Binary classification: FM-
+Three-class classification: FM-
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152214 - 014 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152215 - 014 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152215 - 014 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152216 - 014 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 014 have consistent dimensions: 501 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_014.npy with shape (130, 100, 24).
+
+===== Child ID: 015 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152217 - 015 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152219 - 015 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152218 - 015 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152220 - 015 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 015 have consistent dimensions: 559 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_015.npy with shape (130, 100, 24).
+
+===== Child ID: 016 =====
+Binary classification: FM+
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152221 - 016 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152222 - 016 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152222 - 016 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152223 - 016 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 016 have consistent dimensions: 425 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_016.npy with shape (130, 100, 24).
+
+===== Child ID: 017 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152224 - 017 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152226 - 017 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152225 - 017 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152226 - 017 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 017 have consistent dimensions: 562 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_017.npy with shape (130, 100, 24).
+
+===== Child ID: 018 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152228 - 018 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152230 - 018 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152229 - 018 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152231 - 018 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 018 have consistent dimensions: 629 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_018.npy with shape (130, 100, 24).
+
+===== Child ID: 019 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152233 - 019 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152235 - 019 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152234 - 019 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152236 - 019 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 019 have consistent dimensions: 627 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_019.npy with shape (130, 100, 24).
+
+===== Child ID: 020 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152236 - 020 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152237 - 020 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152237 - 020 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152238 - 020 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 020 have consistent dimensions: 377 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_020.npy with shape (130, 100, 24).
+
+===== Child ID: 021 =====
+Binary classification: FM+
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152239 - 021 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152242 - 021 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152240 - 021 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152243 - 021 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 021 have consistent dimensions: 637 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_021.npy with shape (130, 100, 24).
+
+===== Child ID: 022 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152244 - 022 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152246 - 022 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152245 - 022 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152247 - 022 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 022 have consistent dimensions: 597 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_022.npy with shape (130, 100, 24).
+
+===== Child ID: 023 =====
+Binary classification: FM+
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152248 - 023 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152251 - 023 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152250 - 023 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152252 - 023 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 023 have consistent dimensions: 638 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_023.npy with shape (130, 100, 24).
+
+===== Child ID: 024 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152252 - 024 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152253 - 024 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152253 - 024 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152253 - 024 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 024 have consistent dimensions: 312 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_024.npy with shape (130, 100, 24).
+
+===== Child ID: 025 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152254 - 025 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152255 - 025 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152254 - 025 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152255 - 025 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 025 have consistent dimensions: 308 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_025.npy with shape (130, 100, 24).
+
+===== Child ID: 026 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152255 - 026 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152256 - 026 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152256 - 026 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152257 - 026 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 026 have consistent dimensions: 324 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_026.npy with shape (130, 100, 24).
+
+===== Child ID: 027 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152258 - 027 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152259 - 027 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152258 - 027 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152300 - 027 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 027 have consistent dimensions: 499 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_027.npy with shape (130, 100, 24).
+
+===== Child ID: 028 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152301 - 028 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152302 - 028 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152302 - 028 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152303 - 028 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 028 have consistent dimensions: 445 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_028.npy with shape (130, 100, 24).
+
+===== Child ID: 029 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152304 - 029 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152306 - 029 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152305 - 029 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152306 - 029 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 029 have consistent dimensions: 483 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_029.npy with shape (130, 100, 24).
+
+===== Child ID: 030 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152307 - 030 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152308 - 030 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152308 - 030 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152309 - 030 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 030 have consistent dimensions: 443 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_030.npy with shape (130, 100, 24).
+
+===== Child ID: 031 =====
+Binary classification: FM-
+Three-class classification: FM-
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152309 - 031 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152310 - 031 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152310 - 031 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152310 - 031 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 031 have consistent dimensions: 261 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_031.npy with shape (130, 100, 24).
+
+===== Child ID: 032 =====
+Binary classification: FM+
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152311 - 032 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152313 - 032 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152312 - 032 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152313 - 032 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 032 have consistent dimensions: 459 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_032.npy with shape (130, 100, 24).
+
+===== Child ID: 033 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152314 - 033 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152315 - 033 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152315 - 033 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152316 - 033 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 033 have consistent dimensions: 342 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_033.npy with shape (130, 100, 24).
+
+===== Child ID: 034 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152317 - 034 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152319 - 034 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152318 - 034 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152320 - 034 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 034 have consistent dimensions: 448 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_034.npy with shape (130, 100, 24).
+
+===== Child ID: 035 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152320 - 035 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152321 - 035 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152321 - 035 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152322 - 035 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 035 have consistent dimensions: 372 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_035.npy with shape (130, 100, 24).
+
+===== Child ID: 036 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152323 - 036 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152324 - 036 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152323 - 036 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152325 - 036 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 036 have consistent dimensions: 400 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_036.npy with shape (130, 100, 24).
+
+===== Child ID: 037 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152327 - 037 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152332 - 037 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152330 - 037 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152334 - 037 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 037 have consistent dimensions: 934 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_037.npy with shape (130, 100, 24).
+
+===== Child ID: 038 =====
+Binary classification: FM+
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152336 - 038 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152338 - 038 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152337 - 038 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152338 - 038 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 038 have consistent dimensions: 577 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_038.npy with shape (130, 100, 24).
+
+===== Child ID: 039 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152340 - 039 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152342 - 039 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152341 - 039 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152343 - 039 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 039 have consistent dimensions: 577 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_039.npy with shape (130, 100, 24).
+
+===== Child ID: 040 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152344 - 040 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152345 - 040 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152344 - 040 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152346 - 040 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 040 have consistent dimensions: 501 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_040.npy with shape (130, 100, 24).
+
+===== Child ID: 041 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152347 - 041 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152349 - 041 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152348 - 041 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152349 - 041 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 041 have consistent dimensions: 419 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_041.npy with shape (130, 100, 24).
+
+===== Child ID: 042 =====
+Binary classification: Unknown
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152350 - 042 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152351 - 042 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152351 - 042 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152352 - 042 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 042 have consistent dimensions: 443 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_042.npy with shape (130, 100, 24).
+
+===== Child ID: 043 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152353 - 043 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152355 - 043 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152354 - 043 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152355 - 043 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 043 have consistent dimensions: 511 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_043.npy with shape (130, 100, 24).
+
+===== Child ID: 044 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152356 - 044 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152357 - 044 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152357 - 044 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152358 - 044 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 044 have consistent dimensions: 444 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_044.npy with shape (130, 100, 24).
+
+===== Child ID: 045 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152359 - 045 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152400 - 045 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152359 - 045 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152401 - 045 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 045 have consistent dimensions: 413 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_045.npy with shape (130, 100, 24).
+
+===== Child ID: 046 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152401 - 046 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152402 - 046 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152401 - 046 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152402 - 046 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 046 have consistent dimensions: 320 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_046.npy with shape (130, 100, 24).
+
+===== Child ID: 047 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152403 - 047 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152404 - 047 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152403 - 047 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152405 - 047 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 047 have consistent dimensions: 408 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_047.npy with shape (130, 100, 24).
+
+===== Child ID: 048 =====
+Binary classification: FM-
+Three-class classification: FM-
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152405 - 048 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152407 - 048 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152406 - 048 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152407 - 048 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 048 have consistent dimensions: 463 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_048.npy with shape (130, 100, 24).
+
+===== Child ID: 049 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152408 - 049 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152409 - 049 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152409 - 049 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152410 - 049 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 049 have consistent dimensions: 447 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_049.npy with shape (130, 100, 24).
+
+===== Child ID: 050 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152411 - 050 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152412 - 050 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152411 - 050 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152413 - 050 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 050 have consistent dimensions: 480 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_050.npy with shape (130, 100, 24).
+
+===== Child ID: 051 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152413 - 051 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152414 - 051 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152414 - 051 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152415 - 051 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 051 have consistent dimensions: 406 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_051.npy with shape (130, 100, 24).
+
+===== Child ID: 052 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152415 - 052 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152417 - 052 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152416 - 052 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152417 - 052 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 052 have consistent dimensions: 377 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_052.npy with shape (130, 100, 24).
+
+===== Child ID: 053 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152418 - 053 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152419 - 053 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152419 - 053 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152420 - 053 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 053 have consistent dimensions: 498 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_053.npy with shape (130, 100, 24).
+
+===== Child ID: 054 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152420 - 054 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152421 - 054 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152421 - 054 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152422 - 054 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 054 have consistent dimensions: 300 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_054.npy with shape (130, 100, 24).
+
+===== Child ID: 055 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152422 - 055 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152424 - 055 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152423 - 055 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152424 - 055 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 055 have consistent dimensions: 446 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_055.npy with shape (130, 100, 24).
+
+===== Child ID: 056 =====
+Binary classification: FM-
+Three-class classification: FM-
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152425 - 056 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152426 - 056 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152425 - 056 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152426 - 056 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 056 have consistent dimensions: 376 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_056.npy with shape (130, 100, 24).
+
+===== Child ID: 057 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152427 - 057 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152428 - 057 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152428 - 057 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152429 - 057 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 057 have consistent dimensions: 418 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_057.npy with shape (130, 100, 24).
+
+===== Child ID: 058 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152430 - 058 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152431 - 058 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152430 - 058 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152432 - 058 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 058 have consistent dimensions: 477 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_058.npy with shape (130, 100, 24).
+
+===== Child ID: 059 =====
+Binary classification: FM-
+Three-class classification: FM-
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152432 - 059 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152434 - 059 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152433 - 059 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152434 - 059 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 059 have consistent dimensions: 444 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_059.npy with shape (130, 100, 24).
+
+===== Child ID: 060 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152435 - 060 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152437 - 060 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152436 - 060 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152437 - 060 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 060 have consistent dimensions: 424 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_060.npy with shape (130, 100, 24).
+
+===== Child ID: 063 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152438 - 063 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152439 - 063 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152439 - 063 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152440 - 063 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 063 have consistent dimensions: 490 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_063.npy with shape (130, 100, 24).
+
+===== Child ID: 064 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152441 - 064 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152441 - 064 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152441 - 064 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152442 - 064 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 064 have consistent dimensions: 333 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_064.npy with shape (130, 100, 24).
+
+===== Child ID: 065 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152443 - 065 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152444 - 065 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152443 - 065 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152444 - 065 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 065 have consistent dimensions: 441 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_065.npy with shape (130, 100, 24).
+
+===== Child ID: 066 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152445 - 066 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152447 - 066 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152446 - 066 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152447 - 066 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 066 have consistent dimensions: 460 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_066.npy with shape (130, 100, 24).
+
+===== Child ID: 067 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152448 - 067 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152450 - 067 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152449 - 067 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152451 - 067 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 067 have consistent dimensions: 576 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_067.npy with shape (130, 100, 24).
+
+===== Child ID: 068 =====
+Binary classification: FM-
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152452 - 068 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152453 - 068 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152452 - 068 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152453 - 068 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 068 have consistent dimensions: 386 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_068.npy with shape (130, 100, 24).
+
+===== Child ID: 069 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152454 - 069 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152456 - 069 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152455 - 069 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152456 - 069 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 069 have consistent dimensions: 487 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_069.npy with shape (130, 100, 24).
+
+===== Child ID: 070 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152457 - 070 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152459 - 070 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152458 - 070 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152459 - 070 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 070 have consistent dimensions: 520 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_070.npy with shape (130, 100, 24).
+
+===== Child ID: 071 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152500 - 071 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152502 - 071 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152501 - 071 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152502 - 071 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 071 have consistent dimensions: 445 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_071.npy with shape (130, 100, 24).
+
+===== Child ID: 072 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152503 - 072 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152504 - 072 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152503 - 072 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152504 - 072 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 072 have consistent dimensions: 422 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_072.npy with shape (130, 100, 24).
+
+===== Child ID: 073 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152505 - 073 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152507 - 073 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152506 - 073 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152508 - 073 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 073 have consistent dimensions: 522 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_073.npy with shape (130, 100, 24).
+
+===== Child ID: 074 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152509 - 074 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152510 - 074 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152509 - 074 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152511 - 074 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 074 have consistent dimensions: 515 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_074.npy with shape (130, 100, 24).
+
+===== Child ID: 075 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152512 - 075 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152513 - 075 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152512 - 075 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152513 - 075 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 075 have consistent dimensions: 449 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_075.npy with shape (130, 100, 24).
+
+===== Child ID: 076 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152514 - 076 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152516 - 076 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152515 - 076 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152516 - 076 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 076 have consistent dimensions: 506 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_076.npy with shape (130, 100, 24).
+
+===== Child ID: 077 =====
+Binary classification: FM-
+Three-class classification: FM-
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152517 - 077 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152518 - 077 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152518 - 077 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152519 - 077 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 077 have consistent dimensions: 389 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_077.npy with shape (130, 100, 24).
+
+===== Child ID: 078 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152519 - 078 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152520 - 078 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152520 - 078 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152521 - 078 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 078 have consistent dimensions: 380 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_078.npy with shape (130, 100, 24).
+
+===== Child ID: 079 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152521 - 079 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152523 - 079 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152522 - 079 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152523 - 079 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 079 have consistent dimensions: 445 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_079.npy with shape (130, 100, 24).
+
+===== Child ID: 080 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152524 - 080 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152525 - 080 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152524 - 080 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152525 - 080 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 080 have consistent dimensions: 400 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_080.npy with shape (130, 100, 24).
+
+===== Child ID: 081 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152527 - 081 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152528 - 081 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152527 - 081 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152529 - 081 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 081 have consistent dimensions: 566 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_081.npy with shape (130, 100, 24).
+
+===== Child ID: 082 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152530 - 082 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152531 - 082 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152531 - 082 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152532 - 082 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 082 have consistent dimensions: 436 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_082.npy with shape (130, 100, 24).
+
+===== Child ID: 083 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152533 - 083 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152534 - 083 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152533 - 083 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152534 - 083 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 083 have consistent dimensions: 376 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_083.npy with shape (130, 100, 24).
+
+===== Child ID: 084 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152535 - 084 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152537 - 084 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152536 - 084 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152537 - 084 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 084 have consistent dimensions: 449 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_084.npy with shape (130, 100, 24).
+
+===== Child ID: 085 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152538 - 085 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152539 - 085 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152539 - 085 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152540 - 085 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 085 have consistent dimensions: 441 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_085.npy with shape (130, 100, 24).
+
+===== Child ID: 086 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152540 - 086 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152540 - 086 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152540 - 086 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152540 - 086 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 086 have consistent dimensions: 136 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_086.npy with shape (130, 100, 24).
+
+===== Child ID: 087 =====
+Binary classification: FM+
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152541 - 087 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152542 - 087 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152541 - 087 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152542 - 087 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 087 have consistent dimensions: 324 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_087.npy with shape (130, 100, 24).
+
+===== Child ID: 088 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152543 - 088 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152544 - 088 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152544 - 088 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152545 - 088 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 088 have consistent dimensions: 411 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_088.npy with shape (130, 100, 24).
+
+===== Child ID: 089 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152545 - 089 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152546 - 089 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152546 - 089 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152546 - 089 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 089 have consistent dimensions: 258 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_089.npy with shape (130, 100, 24).
+
+===== Child ID: 090 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152547 - 090 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152548 - 090 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152548 - 090 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152549 - 090 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 090 have consistent dimensions: 438 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_090.npy with shape (130, 100, 24).
+
+===== Child ID: 091 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152550 - 091 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152551 - 091 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152550 - 091 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152552 - 091 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 091 have consistent dimensions: 442 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_091.npy with shape (130, 100, 24).
+
+===== Child ID: 092 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152552 - 092 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152554 - 092 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152553 - 092 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152554 - 092 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 092 have consistent dimensions: 445 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_092.npy with shape (130, 100, 24).
+
+===== Child ID: 093 =====
+Binary classification: FM+
+Three-class classification: FM++
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152555 - 093 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152557 - 093 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152556 - 093 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152558 - 093 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 093 have consistent dimensions: 564 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_093.npy with shape (130, 100, 24).
+
+===== Child ID: 094 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152558 - 094 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152600 - 094 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152559 - 094 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152600 - 094 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 094 have consistent dimensions: 426 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_094.npy with shape (130, 100, 24).
+
+===== Child ID: 095 =====
+Binary classification: FM+
+Three-class classification: Unknown
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152601 - 095 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152602 - 095 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152601 - 095 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152602 - 095 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 095 have consistent dimensions: 351 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_095.npy with shape (130, 100, 24).
+
+===== Child ID: 096 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152603 - 096 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152604 - 096 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152603 - 096 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152604 - 096 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 096 have consistent dimensions: 404 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_096.npy with shape (130, 100, 24).
+
+===== Child ID: 097 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152605 - 097 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152607 - 097 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152606 - 097 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152608 - 097 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 097 have consistent dimensions: 552 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_097.npy with shape (130, 100, 24).
+
+===== Child ID: 098 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152609 - 098 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152610 - 098 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152609 - 098 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152610 - 098 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 098 have consistent dimensions: 435 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_098.npy with shape (130, 100, 24).
+
+===== Child ID: 099 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152611 - 099 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152612 - 099 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152612 - 099 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152613 - 099 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 099 have consistent dimensions: 401 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_099.npy with shape (130, 100, 24).
+
+===== Child ID: 100 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152613 - 100 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152615 - 100 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152614 - 100 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152615 - 100 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 100 have consistent dimensions: 452 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_100.npy with shape (130, 100, 24).
+
+===== Child ID: 101 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152616 - 101 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152617 - 101 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152617 - 101 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152618 - 101 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 101 have consistent dimensions: 447 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_101.npy with shape (130, 100, 24).
+
+===== Child ID: 102 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152618 - 102 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152618 - 102 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152618 - 102 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152618 - 102 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 102 have consistent dimensions: 148 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_102.npy with shape (130, 100, 24).
+
+===== Child ID: 103 =====
+Binary classification: FM+
+Three-class classification: FM+
+
+Files associated with child:
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152619 - 103 - DataFramesLF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152620 - 103 - DataFramesLH.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152619 - 103 - DataFramesRF.npy: No NaN or infinite values - data is OK.
+ - C:\GitRepositories\Master_Thesis\Data\segmented_imu_data_frames\20240731_152620 - 103 - DataFramesRH.npy: No NaN or infinite values - data is OK.
+
+Data consistency check:
+All IMU files for newborn 103 have consistent dimensions: 317 samples, 100 frames, 6 features
+
+Combined data saved to C:\GitRepositories\Master_Thesis\Data_IMU_Segmented_Combined\IMU_CombineSegmentedData_103.npy with shape (130, 100, 24).
+
+===== Summary of Results =====
+All IMU files have consistent dimensions for each newborn.
+
+Summary of health classification based on binary classification:
+ - Healthy (FM+): 92
+ - Potential Issues (FM-): 8
+ - Unknown: 1
+
+The minimum number of samples recorded in IMU data is: 136 for newborn 086
