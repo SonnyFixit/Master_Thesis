@@ -20,7 +20,7 @@ NEW_BINARY_CLASSIFICATION_FILE_TXT = os.path.join(CLASSIFICATION_FOLDER, 'FM_Qua
 NEW_BINARY_CLASSIFICATION_FILE_CSV = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_Negative.csv')
 
 def create_classification_file(excel_file_path, binary=True, variant='standard'):
-    """Create classification file from Excel data."""
+    """Create classification file from Excel data with detailed logging."""
     
     # Ensure the classification folder exists
     if not os.path.exists(CLASSIFICATION_FOLDER):
@@ -48,8 +48,12 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
         base_id = ''.join(filter(str.isdigit, str(row.iloc[0]).strip()))
         fm_quality = str(row.iloc[1]).strip()
         
+        # Log the original values for investigation
+        print(f"Processing index {i}: ID={base_id}, FM Quality={fm_quality}")
+
         # Skip empty or questionable classifications
         if fm_quality.lower() == 'nan' or fm_quality == '' or '?' in fm_quality:
+            print(f"Skipping index {i} due to empty or questionable FM Quality")
             continue
 
         if binary:
@@ -63,6 +67,7 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
                 elif fm_quality in ["FM++", "FM+/FM++", "FM++/FM++"]:
                     fm_quality = "FM+"
                 else:
+                    print(f"Skipping index {i} as FM Quality does not fit binary negative criteria")
                     continue  # Skip unclassified values
 
         if fm_quality in ["FM-", "FM+", "FM++"]:
@@ -70,7 +75,10 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
             # Map classification to numeric value for machine learning
             numeric_class = 0 if fm_quality == "FM-" else 1 if fm_quality == "FM+" else 2
             classification_list.append([base_id, numeric_class])
-    
+            print(f"Index {i} classified as {fm_quality} (numeric: {numeric_class})")
+        else:
+            print(f"Skipping index {i} as FM Quality is {fm_quality}")
+
     # Save the text file
     with open(output_file_path_txt, 'w') as file:
         for child_id, fm_quality in classification_dict.items():
