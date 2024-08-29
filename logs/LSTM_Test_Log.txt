@@ -1052,3 +1052,1873 @@ Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
 Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
 Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
 Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:08:37
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.5857
+Recall: 0.6000
+F1 Score: 0.5868
+Confusion Matrix:
+[[9 3]
+ [5 3]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:10:02
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5596
+Recall: 0.5500
+F1 Score: 0.5535
+Confusion Matrix:
+[[7 5]
+ [4 4]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:11:29
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.5956
+Recall: 0.6000
+F1 Score: 0.5917
+Confusion Matrix:
+[[8 3]
+ [5 4]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 23, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:12:53
+--------------------------------------------------
+Accuracy: 0.4500
+Precision: 0.4250
+Recall: 0.4500
+F1 Score: 0.4280
+Confusion Matrix:
+[[7 4]
+ [7 2]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 20, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 43, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 45, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 103, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:14:21
+--------------------------------------------------
+Accuracy: 0.6500
+Precision: 0.6479
+Recall: 0.6500
+F1 Score: 0.6473
+Confusion Matrix:
+[[8 3]
+ [4 5]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:16:34
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.4762
+Recall: 0.5000
+F1 Score: 0.4835
+Confusion Matrix:
+[[8 4]
+ [6 2]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:17:17
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6000
+Recall: 0.6000
+F1 Score: 0.6000
+Confusion Matrix:
+[[8 4]
+ [4 4]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 21, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 82, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:17:57
+--------------------------------------------------
+Accuracy: 0.4500
+Precision: 0.2750
+Recall: 0.4500
+F1 Score: 0.3414
+Confusion Matrix:
+[[9 2]
+ [9 0]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 23, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:18:40
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6000
+Recall: 0.6000
+F1 Score: 0.6000
+Confusion Matrix:
+[[7 4]
+ [4 5]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 43, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 45, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:19:23
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6000
+Recall: 0.6000
+F1 Score: 0.6000
+Confusion Matrix:
+[[7 4]
+ [4 5]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 27, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:20:52
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.4863
+Recall: 0.5500
+F1 Score: 0.4865
+Confusion Matrix:
+[[10  2]
+ [ 7  1]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:21:34
+--------------------------------------------------
+Accuracy: 0.6500
+Precision: 0.6400
+Recall: 0.6500
+F1 Score: 0.6291
+Confusion Matrix:
+[[10  2]
+ [ 5  3]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 36, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 39, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 90, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:22:14
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.4733
+Recall: 0.5000
+F1 Score: 0.4670
+Confusion Matrix:
+[[8 3]
+ [7 2]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 23, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 58, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:22:55
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5550
+Recall: 0.5500
+F1 Score: 0.5511
+Confusion Matrix:
+[[6 5]
+ [4 5]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 43, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 45, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:23:43
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6121
+Recall: 0.6000
+F1 Score: 0.6000
+Confusion Matrix:
+[[6 5]
+ [3 6]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:26:04
+--------------------------------------------------
+Accuracy: 0.7500
+Precision: 0.7473
+Recall: 0.7500
+F1 Score: 0.7467
+Confusion Matrix:
+[[10  2]
+ [ 3  5]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:27:28
+--------------------------------------------------
+Accuracy: 0.6500
+Precision: 0.6440
+Recall: 0.6500
+F1 Score: 0.6453
+Confusion Matrix:
+[[9 3]
+ [4 4]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 36, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:28:50
+--------------------------------------------------
+Accuracy: 0.4500
+Precision: 0.4250
+Recall: 0.4500
+F1 Score: 0.4280
+Confusion Matrix:
+[[7 4]
+ [7 2]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 23, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:30:11
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5393
+Recall: 0.5500
+F1 Score: 0.5320
+Confusion Matrix:
+[[8 3]
+ [6 3]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 43, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 45, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:31:35
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.5101
+Recall: 0.5000
+F1 Score: 0.5000
+Confusion Matrix:
+[[5 6]
+ [4 5]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:32:49
+--------------------------------------------------
+Accuracy: 0.6500
+Precision: 0.6440
+Recall: 0.6500
+F1 Score: 0.6453
+Confusion Matrix:
+[[9 3]
+ [4 4]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 5, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:33:23
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.6132
+Recall: 0.5500
+F1 Score: 0.5444
+Confusion Matrix:
+[[5 7]
+ [2 6]]
+
+Child ID: 10, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:33:55
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.4733
+Recall: 0.5000
+F1 Score: 0.4670
+Confusion Matrix:
+[[8 3]
+ [7 2]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 23, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:34:28
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5306
+Recall: 0.5500
+F1 Score: 0.4611
+Confusion Matrix:
+[[10  1]
+ [ 8  1]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 19, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 20, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 43, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 45, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:35:02
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7000
+Recall: 0.7000
+F1 Score: 0.7000
+Confusion Matrix:
+[[8 3]
+ [3 6]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 50, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:36:35
+--------------------------------------------------
+Accuracy: 0.3500
+Precision: 0.3758
+Recall: 0.3500
+F1 Score: 0.3549
+Confusion Matrix:
+[[4 8]
+ [5 3]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 74, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 83, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 98, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:37:08
+--------------------------------------------------
+Accuracy: 0.4000
+Precision: 0.4000
+Recall: 0.4000
+F1 Score: 0.4000
+Confusion Matrix:
+[[6 6]
+ [6 2]]
+
+Child ID: 10, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 15, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 21, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 82, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:37:41
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6235
+Recall: 0.6000
+F1 Score: 0.5429
+Confusion Matrix:
+[[10  1]
+ [ 7  2]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 23, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 58, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:38:13
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5550
+Recall: 0.5500
+F1 Score: 0.5511
+Confusion Matrix:
+[[6 5]
+ [4 5]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 43, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 45, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:38:46
+--------------------------------------------------
+Accuracy: 0.4000
+Precision: 0.4088
+Recall: 0.4000
+F1 Score: 0.3879
+Confusion Matrix:
+[[3 8]
+ [4 5]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 56, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 57, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:42:09
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.5000
+Recall: 0.5000
+F1 Score: 0.5000
+Confusion Matrix:
+[[7 5]
+ [5 3]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 98, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:44:11
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6200
+Recall: 0.6000
+F1 Score: 0.6040
+Confusion Matrix:
+[[7 5]
+ [3 5]]
+
+Child ID: 10, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:46:14
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5393
+Recall: 0.5500
+F1 Score: 0.5320
+Confusion Matrix:
+[[8 3]
+ [6 3]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 23, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:48:17
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5458
+Recall: 0.5500
+F1 Score: 0.5465
+Confusion Matrix:
+[[7 4]
+ [5 4]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 22, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 43, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 45, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:50:21
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7141
+Recall: 0.7000
+F1 Score: 0.7000
+Confusion Matrix:
+[[7 4]
+ [2 7]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 14, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:53:37
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.4375
+Recall: 0.5000
+F1 Score: 0.4524
+Confusion Matrix:
+[[9 3]
+ [7 1]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 5, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:54:17
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5596
+Recall: 0.5500
+F1 Score: 0.5535
+Confusion Matrix:
+[[7 5]
+ [4 4]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 36, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:54:56
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.4890
+Recall: 0.5000
+F1 Score: 0.4896
+Confusion Matrix:
+[[7 4]
+ [6 3]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 23, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:55:36
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7022
+Recall: 0.7000
+F1 Score: 0.6938
+Confusion Matrix:
+[[9 2]
+ [4 5]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 43, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 45, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 12:56:20
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7141
+Recall: 0.7000
+F1 Score: 0.7000
+Confusion Matrix:
+[[7 4]
+ [2 7]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 14, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 46, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 48, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 50, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 56, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 12:57:39
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5596
+Recall: 0.5500
+F1 Score: 0.5535
+Confusion Matrix:
+[[7 5]
+ [4 4]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 5, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 87, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 98, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 12:58:20
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7000
+Recall: 0.7000
+F1 Score: 0.7000
+Confusion Matrix:
+[[9 3]
+ [3 5]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 12:59:06
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6000
+Recall: 0.6000
+F1 Score: 0.5736
+Confusion Matrix:
+[[9 2]
+ [6 3]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 23, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 12:59:57
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.6000
+Recall: 0.6000
+F1 Score: 0.5736
+Confusion Matrix:
+[[9 2]
+ [6 3]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 43, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 45, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 13:00:55
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5550
+Recall: 0.5500
+F1 Score: 0.5511
+Confusion Matrix:
+[[6 5]
+ [4 5]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 13:07:14
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7125
+Recall: 0.7000
+F1 Score: 0.6714
+Confusion Matrix:
+[[11  1]
+ [ 5  3]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 13:08:18
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7200
+Recall: 0.7000
+F1 Score: 0.7030
+Confusion Matrix:
+[[8 4]
+ [2 6]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 90, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 91, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 94, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 13:09:24
+--------------------------------------------------
+Accuracy: 0.4000
+Precision: 0.3467
+Recall: 0.4000
+F1 Score: 0.3604
+Confusion Matrix:
+[[7 4]
+ [8 1]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 23, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 13:10:29
+--------------------------------------------------
+Accuracy: 0.6000
+Precision: 0.5956
+Recall: 0.6000
+F1 Score: 0.5917
+Confusion Matrix:
+[[8 3]
+ [5 4]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 22, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 43, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 45, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 47, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 13:11:44
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5687
+Recall: 0.5500
+F1 Score: 0.5466
+Confusion Matrix:
+[[5 6]
+ [3 6]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 56, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 88, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 1 - Date: 2024-08-29 13:14:06
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.6952
+Recall: 0.7000
+F1 Score: 0.6901
+Confusion Matrix:
+[[10  2]
+ [ 4  4]]
+
+Child ID: 1, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 3, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 5, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 16, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 25, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 28, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 31, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 40, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 41, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 52, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 59, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 69, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 74, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 83, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 84, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 86, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 87, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 93, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 95, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 98, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 2 - Date: 2024-08-29 13:15:37
+--------------------------------------------------
+Accuracy: 0.7000
+Precision: 0.7583
+Recall: 0.7000
+F1 Score: 0.7000
+Confusion Matrix:
+[[7 5]
+ [1 7]]
+
+Child ID: 10, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 15, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 21, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 26, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 33, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 36, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 39, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 44, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 49, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 51, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 53, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 64, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 70, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 72, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 82, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 90, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 91, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 94, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 97, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 100, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 3 - Date: 2024-08-29 13:16:56
+--------------------------------------------------
+Accuracy: 0.5500
+Precision: 0.5458
+Recall: 0.5500
+F1 Score: 0.5465
+Confusion Matrix:
+[[7 4]
+ [5 4]]
+
+Child ID: 6, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 8, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 11, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 12, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 17, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 18, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 23, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 30, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 32, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 34, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 35, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 37, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 54, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 55, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 58, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 60, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 67, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 76, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 89, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 101, Actual: 0, Predicted: 0, Result: Correct
+
+
+
+
+Test Log - Fold 4 - Date: 2024-08-29 13:18:11
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.5101
+Recall: 0.5000
+F1 Score: 0.5000
+Confusion Matrix:
+[[5 6]
+ [4 5]]
+
+Child ID: 2, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 7, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 19, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 20, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 22, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 24, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 29, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 43, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 45, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 47, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 63, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 68, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 73, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 75, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 77, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 78, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 79, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 81, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 99, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 103, Actual: 0, Predicted: 1, Result: Incorrect
+
+
+
+
+Test Log - Fold 5 - Date: 2024-08-29 13:19:26
+--------------------------------------------------
+Accuracy: 0.5000
+Precision: 0.5101
+Recall: 0.5000
+F1 Score: 0.5000
+Confusion Matrix:
+[[5 6]
+ [4 5]]
+
+Child ID: 4, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 9, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 13, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 14, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 27, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 38, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 46, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 48, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 50, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 56, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 57, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 65, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 66, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 71, Actual: 1, Predicted: 0, Result: Incorrect
+Child ID: 80, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 85, Actual: 0, Predicted: 1, Result: Incorrect
+Child ID: 88, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 92, Actual: 1, Predicted: 1, Result: Correct
+Child ID: 96, Actual: 0, Predicted: 0, Result: Correct
+Child ID: 102, Actual: 0, Predicted: 1, Result: Incorrect

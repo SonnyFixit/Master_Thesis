@@ -71,7 +71,7 @@ def collate_fn(batch):
 
 # Definition of the LSTM model with multiple layers and dropout
 class IMULSTM(nn.Module):
-    def __init__(self, input_size=24, hidden_size=128, num_layers=2, num_classes=2, dropout=0.3):
+    def __init__(self, input_size=24, hidden_size=256, num_layers=3, num_classes=2, dropout=0.75):
         super(IMULSTM, self).__init__()
         self.lstm = nn.LSTM(input_size=input_size, hidden_size=hidden_size, num_layers=num_layers, batch_first=True, dropout=dropout)
         self.fc = nn.Linear(hidden_size, num_classes)  # Fully connected layer for output
@@ -120,12 +120,13 @@ for train_index, test_index in skf.split(np.zeros(len(dataset)), dataset.labels)
     train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True, collate_fn=collate_fn)
     test_loader = DataLoader(test_dataset, batch_size=16, shuffle=False, collate_fn=collate_fn)
     
-    model = IMULSTM(input_size=24, hidden_size=128, num_layers=2, num_classes=2, dropout=0.3)
+    model = IMULSTM(input_size=24, hidden_size=256, num_layers=3, num_classes=2, dropout=0.4)
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4)  # Adjust weight_decay if needed
+    optimizer = optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)  # Adjust weight_decay if needed
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3, verbose=True)
 
     # Model training without Early Stopping
-    num_epochs = 20
+    num_epochs = 15
     for epoch in range(num_epochs):
         model.train()
         running_loss = 0.0
@@ -152,6 +153,10 @@ for train_index, test_index in skf.split(np.zeros(len(dataset)), dataset.labels)
             if (i + 1) % 10 == 0 or (i + 1) == total_batches:
                 progress = (i + 1) / total_batches * 100
                 print(f"Fold {fold}, Epoch {epoch+1}/{num_epochs}, Batch {i+1}/{total_batches} ({progress:.2f}%), Loss: {running_loss/(i+1):.4f}")
+        
+        # Step scheduler
+        val_loss = running_loss / len(train_loader)
+        scheduler.step(val_loss)
     
     print(f'Fold {fold}, Epoch {epoch+1}/{num_epochs}, Loss: {running_loss/len(train_loader):.4f}')
 
