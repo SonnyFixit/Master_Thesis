@@ -1,22 +1,22 @@
-Classification Log - Date: 2024-08-28 18:48:24
+Classification Log - Date: 2024-08-29 10:49:22
 --------------------------------------------------
 Binary Classification Counts (Standard):
  - FM-: 8
- - FM+: 93
+ - FM+: 92
  - Unknown: 0
 
 Three-Class Classification Counts:
  - FM-: 7
  - FM+: 49
- - FM++: 37
+ - FM++: 38
  - Unknown: 0
 
 Binary Classification Counts (New - FM- includes FM+):
  - FM-: 57
- - FM+: 41
+ - FM+: 43
  - Unknown: 0
 
-Excel Columns Log - Date: 2024-08-28 18:48:24
+Excel Columns Log - Date: 2024-08-29 10:49:22
 --------------------------------------------------
 Subject ID           Record Length (s)                        FM Quality          
 --------------------------------------------------
@@ -59,7 +59,7 @@ Subject ID           Record Length (s)                        FM Quality
 35                   374.353                                  FM++**              
 36                   401.282                                  FM+*                
 37                   935.878                                  FM++**              
-38                   578.538                                  FM++** / FM++*      
+38                   578.538                                  FM++**              
 39                   578.348                                  FM++**              
 40                   502.733                                  FM+*                
 41                   420.245                                  FM+*                
@@ -111,7 +111,7 @@ Subject ID           Record Length (s)                        FM Quality
 85                   442.63                                   FM+*                
 86                   nan                                      FM+*                
 86a                  137.54                                   nan                 
-87                   325.689                                  FM++* / FM++**      
+87                   325.689                                  FM++**              
 88                   411.894                                  FM++*               
 89                   nan                                      FM++**              
 89a                  259.491                                  nan                 
@@ -120,7 +120,7 @@ Subject ID           Record Length (s)                        FM Quality
 92                   445.921                                  FM++*               
 93                   565.968                                  FM++**              
 94                   428.195                                  FM+*                
-95                   352.64                                   FM+* / FM++**       
+95                   352.64                                   FM+*/FM++**         
 96                   404.932                                  FM+*                
 97                   553.639                                  FM+*                
 98                   436.175                                  FM+*                
