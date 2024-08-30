@@ -1,8 +1,9 @@
 import os
 import sys
 import numpy as np
-from datetime import datetime  # Import the datetime module
+from datetime import datetime
 
+# Add the configuration path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from FM_QualityClassification import create_classification_file
@@ -83,8 +84,9 @@ min_samples = float('inf')
 min_samples_newborn_id = None
 validation_results = ""  # Initialize a string to store all validation results
 
-# Define the number of samples to be considered (e.g., 130)
+# Define the number of samples to be considered (e.g., 130) and whether to limit samples
 num_samples = 130
+limit_samples = False  # Set to False to use all available data samples
 
 # Process each newborn
 for unique_id in unique_ids:
@@ -127,8 +129,15 @@ for unique_id in unique_ids:
     else:
         inconsistent_ids.append(unique_id)
 
-    # Combine IMU data for the newborn and save the result, considering num_samples
-    combine_result = combine_segmented_imu_data(unique_id, SEGMENTED_IMU_DATA_FRAMES_FOLDER, IMU_SUFFIXES, COMBINED_DATA_FOLDER, num_samples)
+    # Combine IMU data for the newborn and save the result, considering whether to limit samples
+    combine_result = combine_segmented_imu_data(
+        unique_id=unique_id,
+        folder_path=SEGMENTED_IMU_DATA_FRAMES_FOLDER,
+        imu_suffixes=IMU_SUFFIXES,
+        output_folder=COMBINED_DATA_FOLDER,
+        num_samples=num_samples,
+        limit_samples=limit_samples
+    )
     validation_results += f"\n{combine_result}\n"
 
 # Summary of results
