@@ -14,10 +14,15 @@ from MasterThesis_Config import SEGMENTED_IMU_DATA_FRAMES_FOLDER, COMBINED_DATA_
 BIG_DATASET_FILE = os.path.join(COMBINED_DATA_FOLDER, 'IMU_Segmented_BigDataset.npy')
 LOG_FILE_PATH = os.path.join(LOGS_FOLDER, 'IMU_Segmented_BigDataset_Log.txt')
 BINARY_CLASSIFICATION_FILE = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary.csv')
-CLASSIFICATION_OUTPUT_FILE = os.path.join(COMBINED_DATA_FOLDER, 'FM_QualityClassification_Binary_BigData.csv')
+
+# Update the output path for the classification CSV file
+CLASSIFICATION_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_BigData.csv')
+
+# New output CSV file for ID, group, and range information
+SEGMENT_INFO_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'IMU_Segmented_Group_Info.csv')
 
 # IDs to be excluded
-EXCLUDED_IDS = ["042"]
+EXCLUDED_IDS = ["042", "100", "096", "091", "086", "082", "075", "050", "035", "009", "016", "020", "034", "103", "088", "067", "055", "057", "049", "046", "005", "008","010", "025"]
 
 # Function to log messages
 def log_message(message):
@@ -48,6 +53,7 @@ def create_big_dataset(combined_folder=COMBINED_DATA_FOLDER, output_file=BIG_DAT
     # Initialize the large dataset as a list
     large_dataset = []
     child_data_info = []  # Stores information about children and their data dimensions
+    excluded_samples = []  # To store excluded samples
     total_rows_expected = 0  # Expected sum of the first dimensions
     log_message("Starting creation of the large dataset")
 
@@ -59,6 +65,7 @@ def create_big_dataset(combined_folder=COMBINED_DATA_FOLDER, output_file=BIG_DAT
             # Skip selected IDs
             if child_id in EXCLUDED_IDS:
                 log_message(f"Skipping child ID: {child_id} as it is in the excluded list.")
+                excluded_samples.append(child_id)
                 continue
             
             file_path = os.path.join(combined_folder, file_name)
@@ -98,9 +105,13 @@ def create_big_dataset(combined_folder=COMBINED_DATA_FOLDER, output_file=BIG_DAT
     else:
         log_message(f"Validation failed: Expected {total_rows_expected} rows, but got {large_dataset.shape[0]} rows in the big dataset.")
     
-    return child_data_info  # Return the collected child data information
+    # Log excluded samples
+    log_message("===== Excluded Samples =====")
+    log_message(f"Excluded child IDs: {', '.join(excluded_samples)}")
+    
+    return child_data_info, excluded_samples  # Return the collected child data information and excluded samples
 
-def create_classification_file(child_data_info, classification_file_path, output_file_path):
+def create_classification_file(child_data_info, classification_file_path, output_file_path, excluded_samples):
     # Load classification data from binary classification file
     classifications = read_binary_classification(classification_file_path)
     log_message(f"Loaded binary classification data from {classification_file_path}")
@@ -108,8 +119,15 @@ def create_classification_file(child_data_info, classification_file_path, output
     # Initialize classification data to write
     classification_data = []
 
-    # Initialize the index to 1 (to start from 1 instead of 0)
-    current_index = 1
+    # Initialize the index to 2 (to start from the first row after the header)
+    current_index = 2
+
+    # Initialize a list to store information for the new CSV file
+    segment_info_data = []
+
+    # Initialize counters for FM- and FM+ children
+    fm_minus_count = 0
+    fm_plus_count = 0
 
     # Iterate over child data info to generate classification
     for child_id, shape in child_data_info:
@@ -119,13 +137,24 @@ def create_classification_file(child_data_info, classification_file_path, output
             log_message(f"No classification found for child ID: {child_id}, skipping.")
             continue
 
+        # Increment counters based on classification
+        if classification == '0':
+            fm_minus_count += 1
+        elif classification == '1':
+            fm_plus_count += 1
+
         # Add classification for each row corresponding to this child
+        start_index = current_index
         for i in range(num_rows):
-            classification_data.append([current_index, classification])
+            classification_data.append([current_index - 1, classification])  # Adjust for the header offset
             current_index += 1
 
+        end_index = current_index - 1
         # Log information about the current child data
-        log_message(f"Child ID: {child_id} - Assigned classification '{classification}' for rows {current_index - num_rows + 1} to {current_index}.")
+        log_message(f"Child ID: {child_id} - Assigned classification '{classification}' for rows {start_index} to {end_index}.")
+        
+        # Add information to the new segment info list
+        segment_info_data.append([child_id, classification, start_index, end_index])
 
     # Write the classification data to a new CSV file
     with open(output_file_path, 'w', newline='') as csvfile:
@@ -136,8 +165,25 @@ def create_classification_file(child_data_info, classification_file_path, output
     log_message(f"Classification file created and saved to {output_file_path} with {len(classification_data)} rows")
     log_message("Note: Row numbering starts from 1 due to the header row.")
 
+    # Log excluded samples for the classification file
+    log_message("===== Excluded Samples for Classification =====")
+    log_message(f"Excluded child IDs: {', '.join(excluded_samples)}")
+
+    # Write the segment info data to a new CSV file
+    with open(SEGMENT_INFO_OUTPUT_FILE, 'w', newline='') as segment_csvfile:
+        segment_csv_writer = csv.writer(segment_csvfile)
+        segment_csv_writer.writerow(["Child ID", "Classification", "Start Row", "End Row"])  # Header
+        segment_csv_writer.writerows(segment_info_data)
+
+    log_message(f"Segment information file created and saved to {SEGMENT_INFO_OUTPUT_FILE} with {len(segment_info_data)} rows")
+
+    # Log the counts of FM- and FM+ children
+    log_message("===== Summary of FM- and FM+ Children =====")
+    log_message(f"Number of children classified as FM- (0): {fm_minus_count}")
+    log_message(f"Number of children classified as FM+ (1): {fm_plus_count}")
+
 # Call the function to create big dataset
-child_data_info = create_big_dataset()
+child_data_info, excluded_samples = create_big_dataset()
 
 # Call the function to create classification file
-create_classification_file(child_data_info, BINARY_CLASSIFICATION_FILE, CLASSIFICATION_OUTPUT_FILE)
+create_classification_file(child_data_info, BINARY_CLASSIFICATION_FILE, CLASSIFICATION_OUTPUT_FILE, excluded_samples)
