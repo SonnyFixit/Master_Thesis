@@ -1,0 +1,795 @@
+2024-09-11 08:51:58 - Starting creation of the combined 60-second Kinect dataset
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095041 - 005 - KinectDataFrames.npy with shape (319, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095046 - 008 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095047 - 009 - KinectDataFrames.npy with shape (283, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095052 - 010 - KinectDataFrames.npy with shape (602, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095107 - 016 - KinectDataFrames.npy with shape (403, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095122 - 020 - KinectDataFrames.npy with shape (366, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095137 - 025 - KinectDataFrames.npy with shape (302, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095153 - 034 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095155 - 035 - KinectDataFrames.npy with shape (354, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-11 08:51:58 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095228 - 046 - KinectDataFrames.npy with shape (194, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095234 - 049 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095237 - 050 - KinectDataFrames.npy with shape (465, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095247 - 055 - KinectDataFrames.npy with shape (435, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095249 - 057 - KinectDataFrames.npy with shape (405, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095307 - 067 - KinectDataFrames.npy with shape (558, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-11 08:51:58 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095322 - 075 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095335 - 082 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095343 - 086 - KinectDataFrames.npy with shape (121, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095346 - 088 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095351 - 091 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095401 - 096 - KinectDataFrames.npy with shape (394, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095411 - 100 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-11 08:51:59 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095415 - 103 - KinectDataFrames.npy with shape (309, 30, 99)
+2024-09-11 08:53:30 - Starting creation of the combined 60-second Kinect dataset
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095041 - 005 - KinectDataFrames.npy with shape (319, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095046 - 008 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095047 - 009 - KinectDataFrames.npy with shape (283, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095052 - 010 - KinectDataFrames.npy with shape (602, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095107 - 016 - KinectDataFrames.npy with shape (403, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095122 - 020 - KinectDataFrames.npy with shape (366, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095137 - 025 - KinectDataFrames.npy with shape (302, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095153 - 034 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095155 - 035 - KinectDataFrames.npy with shape (354, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-11 08:53:30 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095228 - 046 - KinectDataFrames.npy with shape (194, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095234 - 049 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095237 - 050 - KinectDataFrames.npy with shape (465, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095247 - 055 - KinectDataFrames.npy with shape (435, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095249 - 057 - KinectDataFrames.npy with shape (405, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095307 - 067 - KinectDataFrames.npy with shape (558, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095322 - 075 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095335 - 082 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095343 - 086 - KinectDataFrames.npy with shape (121, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095346 - 088 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095351 - 091 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095401 - 096 - KinectDataFrames.npy with shape (394, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095411 - 100 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-11 08:53:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095415 - 103 - KinectDataFrames.npy with shape (309, 30, 99)
+2024-09-11 08:53:30 - Combined 60-second Kinect dataset created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Combined_60sDataset.npy with shape (0, 1800, 99)
+
+2024-09-11 08:53:30 - ===== Summary =====
+2024-09-11 08:53:30 - Total number of files included: 0
+2024-09-11 08:53:30 - ===== Excluded Samples =====
+2024-09-11 08:53:30 - Excluded child IDs: 042
+2024-09-11 08:53:30 - Loaded binary classification data from C:\GitRepositories\Master_Thesis\FM_QualityClassification\FM_QualityClassification_Binary.csv
+2024-09-11 08:53:30 - Classification file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_QualityClassification_Binary_60sData.csv with 0 rows
+2024-09-11 08:53:30 - Segment information file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Segmented_Group_Info_60s.csv with 0 rows
+2024-09-11 08:53:30 - ===== Summary of FM- and FM+ Children =====
+2024-09-11 08:53:30 - Number of children classified as FM- (0): 0
+2024-09-11 08:53:30 - Number of children classified as FM+ (1): 0
+2024-09-11 08:57:55 - Starting creation of the combined 60-second Kinect dataset
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 001
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 002
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 003
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 004
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095041 - 005 - KinectDataFrames.npy with shape (319, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 005
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 006
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 007
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095046 - 008 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 008
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095047 - 009 - KinectDataFrames.npy with shape (283, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 009
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095052 - 010 - KinectDataFrames.npy with shape (602, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 010
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 011
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 012
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 013
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 014
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 015
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095107 - 016 - KinectDataFrames.npy with shape (403, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 016
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 017
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 018
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 019
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095122 - 020 - KinectDataFrames.npy with shape (366, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 020
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 021
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 022
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 023
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 024
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095137 - 025 - KinectDataFrames.npy with shape (302, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 025
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 026
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 027
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 028
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 029
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 030
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 031
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 032
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 033
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095153 - 034 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 034
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095155 - 035 - KinectDataFrames.npy with shape (354, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 035
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 036
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 037
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 038
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 039
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 040
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 041
+2024-09-11 08:57:55 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 043
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 044
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 045
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095228 - 046 - KinectDataFrames.npy with shape (194, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 046
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 047
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 048
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095234 - 049 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 049
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095237 - 050 - KinectDataFrames.npy with shape (465, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 050
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 051
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 052
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 053
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 054
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095247 - 055 - KinectDataFrames.npy with shape (435, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 055
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095249 - 057 - KinectDataFrames.npy with shape (405, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 057
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 058
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 059
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 060
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 063
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 065
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 066
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095307 - 067 - KinectDataFrames.npy with shape (558, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 067
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 068
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 071
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 072
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 073
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 074
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095322 - 075 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 075
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 076
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 077
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 078
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 079
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 080
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 081
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095335 - 082 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 082
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 083
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 084
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 085
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095343 - 086 - KinectDataFrames.npy with shape (121, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 086
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 087
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095346 - 088 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 088
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 090
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095351 - 091 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 091
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 092
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 093
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 095
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095401 - 096 - KinectDataFrames.npy with shape (394, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 096
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 097
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 098
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 099
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095411 - 100 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 100
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 101
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 102
+2024-09-11 08:57:55 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095415 - 103 - KinectDataFrames.npy with shape (309, 30, 99)
+2024-09-11 08:57:55 - No full 60-second samples available for child ID: 103
+2024-09-11 08:57:55 - No valid data found to create the combined 60-second Kinect dataset.
+2024-09-11 08:57:55 - ===== Summary =====
+2024-09-11 08:57:55 - Total number of files included: 0
+2024-09-11 08:57:55 - ===== Excluded Samples =====
+2024-09-11 08:57:55 - Excluded child IDs: 042
+2024-09-11 08:57:55 - Loaded binary classification data from C:\GitRepositories\Master_Thesis\FM_QualityClassification\FM_QualityClassification_Binary.csv
+2024-09-11 08:57:55 - No classification data found to create the classification file.
+2024-09-11 08:57:55 - No segment information data found to create the segment info file.
+2024-09-11 08:57:55 - ===== Summary of FM- and FM+ Children =====
+2024-09-11 08:57:55 - Number of children classified as FM- (0): 0
+2024-09-11 08:57:55 - Number of children classified as FM+ (1): 0
+2024-09-11 09:14:09 - Starting creation of the combined 60-second Kinect dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-11 09:14:09 - Added 6 full 60-second samples for child ID 001 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-11 09:14:09 - Added 12 full 60-second samples for child ID 002 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-11 09:14:09 - Added 5 full 60-second samples for child ID 003 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 09:14:09 - Added 6 full 60-second samples for child ID 004 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095041 - 005 - KinectDataFrames.npy with shape (319, 30, 99)
+2024-09-11 09:14:09 - Added 5 full 60-second samples for child ID 005 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-11 09:14:09 - Added 5 full 60-second samples for child ID 006 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 09:14:09 - Added 6 full 60-second samples for child ID 007 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095046 - 008 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 09:14:09 - Added 6 full 60-second samples for child ID 008 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095047 - 009 - KinectDataFrames.npy with shape (283, 30, 99)
+2024-09-11 09:14:09 - Added 4 full 60-second samples for child ID 009 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095052 - 010 - KinectDataFrames.npy with shape (602, 30, 99)
+2024-09-11 09:14:09 - Added 10 full 60-second samples for child ID 010 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-11 09:14:09 - Added 7 full 60-second samples for child ID 011 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-11 09:14:09 - Added 7 full 60-second samples for child ID 012 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 09:14:09 - Added 6 full 60-second samples for child ID 013 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-11 09:14:09 - Added 7 full 60-second samples for child ID 014 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-11 09:14:09 - Added 8 full 60-second samples for child ID 015 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095107 - 016 - KinectDataFrames.npy with shape (403, 30, 99)
+2024-09-11 09:14:09 - Added 6 full 60-second samples for child ID 016 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-11 09:14:09 - Added 9 full 60-second samples for child ID 017 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-11 09:14:09 - Added 10 full 60-second samples for child ID 018 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-11 09:14:09 - Added 10 full 60-second samples for child ID 019 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095122 - 020 - KinectDataFrames.npy with shape (366, 30, 99)
+2024-09-11 09:14:09 - Added 6 full 60-second samples for child ID 020 to the combined dataset
+2024-09-11 09:14:09 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-11 09:14:10 - Added 10 full 60-second samples for child ID 021 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-11 09:14:10 - Added 9 full 60-second samples for child ID 022 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-11 09:14:10 - Added 10 full 60-second samples for child ID 023 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-11 09:14:10 - Added 5 full 60-second samples for child ID 024 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095137 - 025 - KinectDataFrames.npy with shape (302, 30, 99)
+2024-09-11 09:14:10 - Added 5 full 60-second samples for child ID 025 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-11 09:14:10 - Added 5 full 60-second samples for child ID 026 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 09:14:10 - Added 8 full 60-second samples for child ID 027 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-11 09:14:10 - Added 6 full 60-second samples for child ID 028 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 09:14:10 - Added 6 full 60-second samples for child ID 029 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 09:14:10 - Added 7 full 60-second samples for child ID 030 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-11 09:14:10 - Added 4 full 60-second samples for child ID 031 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-11 09:14:10 - Added 4 full 60-second samples for child ID 032 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-11 09:14:10 - Added 5 full 60-second samples for child ID 033 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095153 - 034 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 09:14:10 - Added 7 full 60-second samples for child ID 034 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095155 - 035 - KinectDataFrames.npy with shape (354, 30, 99)
+2024-09-11 09:14:10 - Added 5 full 60-second samples for child ID 035 to the combined dataset
+2024-09-11 09:14:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-11 09:14:11 - Added 6 full 60-second samples for child ID 036 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-11 09:14:11 - Added 15 full 60-second samples for child ID 037 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-11 09:14:11 - Added 9 full 60-second samples for child ID 038 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-11 09:14:11 - Added 9 full 60-second samples for child ID 039 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-11 09:14:11 - Added 8 full 60-second samples for child ID 040 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-11 09:14:11 - Added 6 full 60-second samples for child ID 041 to the combined dataset
+2024-09-11 09:14:11 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-11 09:14:11 - Added 8 full 60-second samples for child ID 043 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-11 09:14:11 - Added 5 full 60-second samples for child ID 044 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-11 09:14:11 - Added 6 full 60-second samples for child ID 045 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095228 - 046 - KinectDataFrames.npy with shape (194, 30, 99)
+2024-09-11 09:14:11 - Added 3 full 60-second samples for child ID 046 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-11 09:14:11 - Added 6 full 60-second samples for child ID 047 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-11 09:14:11 - Added 7 full 60-second samples for child ID 048 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095234 - 049 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-11 09:14:11 - Added 7 full 60-second samples for child ID 049 to the combined dataset
+2024-09-11 09:14:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095237 - 050 - KinectDataFrames.npy with shape (465, 30, 99)
+2024-09-11 09:14:12 - Added 7 full 60-second samples for child ID 050 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-11 09:14:12 - Added 6 full 60-second samples for child ID 051 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-11 09:14:12 - Added 6 full 60-second samples for child ID 052 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-11 09:14:12 - Added 7 full 60-second samples for child ID 053 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-11 09:14:12 - Added 4 full 60-second samples for child ID 054 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095247 - 055 - KinectDataFrames.npy with shape (435, 30, 99)
+2024-09-11 09:14:12 - Added 7 full 60-second samples for child ID 055 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095249 - 057 - KinectDataFrames.npy with shape (405, 30, 99)
+2024-09-11 09:14:12 - Added 6 full 60-second samples for child ID 057 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-11 09:14:12 - Added 7 full 60-second samples for child ID 058 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 09:14:12 - Added 7 full 60-second samples for child ID 059 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-11 09:14:12 - Added 6 full 60-second samples for child ID 060 to the combined dataset
+2024-09-11 09:14:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-11 09:14:13 - Added 7 full 60-second samples for child ID 063 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 09:14:13 - Added 7 full 60-second samples for child ID 065 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-11 09:14:13 - Added 7 full 60-second samples for child ID 066 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095307 - 067 - KinectDataFrames.npy with shape (558, 30, 99)
+2024-09-11 09:14:13 - Added 9 full 60-second samples for child ID 067 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-11 09:14:13 - Added 6 full 60-second samples for child ID 068 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-11 09:14:13 - Added 7 full 60-second samples for child ID 071 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-11 09:14:13 - Added 6 full 60-second samples for child ID 072 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-11 09:14:13 - Added 8 full 60-second samples for child ID 073 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-11 09:14:13 - Added 8 full 60-second samples for child ID 074 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095322 - 075 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 09:14:13 - Added 7 full 60-second samples for child ID 075 to the combined dataset
+2024-09-11 09:14:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-11 09:14:14 - Added 7 full 60-second samples for child ID 076 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 09:14:14 - Added 6 full 60-second samples for child ID 077 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-11 09:14:14 - Added 6 full 60-second samples for child ID 078 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-11 09:14:14 - Added 7 full 60-second samples for child ID 079 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-11 09:14:14 - Added 6 full 60-second samples for child ID 080 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-11 09:14:14 - Added 1 full 60-second samples for child ID 081 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095335 - 082 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-11 09:14:14 - Added 6 full 60-second samples for child ID 082 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-11 09:14:14 - Added 6 full 60-second samples for child ID 083 to the combined dataset
+2024-09-11 09:14:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 09:14:15 - Added 7 full 60-second samples for child ID 084 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 09:14:15 - Added 7 full 60-second samples for child ID 085 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095343 - 086 - KinectDataFrames.npy with shape (121, 30, 99)
+2024-09-11 09:14:15 - Added 2 full 60-second samples for child ID 086 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-11 09:14:15 - Added 5 full 60-second samples for child ID 087 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095346 - 088 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-11 09:14:15 - Added 6 full 60-second samples for child ID 088 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-11 09:14:15 - Added 7 full 60-second samples for child ID 090 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095351 - 091 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-11 09:14:15 - Added 7 full 60-second samples for child ID 091 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 09:14:15 - Added 7 full 60-second samples for child ID 092 to the combined dataset
+2024-09-11 09:14:15 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-11 09:14:16 - Added 9 full 60-second samples for child ID 093 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-11 09:14:16 - Added 5 full 60-second samples for child ID 095 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095401 - 096 - KinectDataFrames.npy with shape (394, 30, 99)
+2024-09-11 09:14:16 - Added 6 full 60-second samples for child ID 096 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-11 09:14:16 - Added 8 full 60-second samples for child ID 097 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-11 09:14:16 - Added 6 full 60-second samples for child ID 098 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-11 09:14:16 - Added 6 full 60-second samples for child ID 099 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095411 - 100 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-11 09:14:16 - Added 7 full 60-second samples for child ID 100 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-11 09:14:16 - Added 7 full 60-second samples for child ID 101 to the combined dataset
+2024-09-11 09:14:16 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-11 09:14:17 - Added 2 full 60-second samples for child ID 102 to the combined dataset
+2024-09-11 09:14:17 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095415 - 103 - KinectDataFrames.npy with shape (309, 30, 99)
+2024-09-11 09:14:17 - Added 5 full 60-second samples for child ID 103 to the combined dataset
+2024-09-11 09:14:18 - Combined 60-second Kinect dataset created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Combined_60sDataset.npy with shape (621, 1800, 99)
+
+2024-09-11 09:14:18 - ===== Summary =====
+2024-09-11 09:14:18 - Total number of files included: 94
+2024-09-11 09:14:18 - Child ID: 001, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 002, Data Shape: (12, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 003, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 004, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 005, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 006, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 007, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 008, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 009, Data Shape: (4, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 010, Data Shape: (10, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 011, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 012, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 013, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 014, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 015, Data Shape: (8, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 016, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 017, Data Shape: (9, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 018, Data Shape: (10, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 019, Data Shape: (10, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 020, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 021, Data Shape: (10, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 022, Data Shape: (9, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 023, Data Shape: (10, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 024, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 025, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 026, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 027, Data Shape: (8, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 028, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 029, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 030, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 031, Data Shape: (4, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 032, Data Shape: (4, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 033, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 034, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 035, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 036, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 037, Data Shape: (15, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 038, Data Shape: (9, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 039, Data Shape: (9, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 040, Data Shape: (8, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 041, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 043, Data Shape: (8, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 044, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 045, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 046, Data Shape: (3, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 047, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 048, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 049, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 050, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 051, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 052, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 053, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 054, Data Shape: (4, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 055, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 057, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 058, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 059, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 060, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 063, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 065, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 066, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 067, Data Shape: (9, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 068, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 071, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 072, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 073, Data Shape: (8, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 074, Data Shape: (8, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 075, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 076, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 077, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 078, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 079, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 080, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 081, Data Shape: (1, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 082, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 083, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 084, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 085, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 086, Data Shape: (2, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 087, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 088, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 090, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 091, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 092, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 093, Data Shape: (9, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 095, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 096, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 097, Data Shape: (8, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 098, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 099, Data Shape: (6, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 100, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 101, Data Shape: (7, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 102, Data Shape: (2, 1800, 99)
+2024-09-11 09:14:18 - Child ID: 103, Data Shape: (5, 1800, 99)
+2024-09-11 09:14:18 - ===== Excluded Samples =====
+2024-09-11 09:14:18 - Excluded child IDs: 042
+2024-09-11 09:14:18 - Loaded binary classification data from C:\GitRepositories\Master_Thesis\FM_QualityClassification\FM_QualityClassification_Binary.csv
+2024-09-11 09:14:18 - Child ID: 001 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 002 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 003 - Assigned classification '0' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 004 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 005 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 006 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 007 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 008 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 009 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 010 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 011 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 012 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 013 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 014 - Assigned classification '0' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 015 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 016 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 017 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 018 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 019 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 020 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 021 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 022 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 023 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 024 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 025 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 026 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 027 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 028 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 029 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 030 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 031 - Assigned classification '0' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 032 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 033 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 034 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 035 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 036 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 037 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 038 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 039 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 040 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 041 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 043 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 044 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 045 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 046 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 047 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 048 - Assigned classification '0' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 049 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 050 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 051 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 052 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 053 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 054 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 055 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 057 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 058 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 059 - Assigned classification '0' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 060 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 063 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 065 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 066 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 067 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 068 - Assigned classification '0' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 071 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 072 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 073 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 074 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 075 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 076 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 077 - Assigned classification '0' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 078 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 079 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 080 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 081 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 082 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 083 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 084 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 085 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 086 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 087 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 088 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 090 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 091 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 092 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 093 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 095 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 096 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 097 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 098 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 099 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 100 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 101 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 102 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Child ID: 103 - Assigned classification '1' for 60-second segments.
+2024-09-11 09:14:18 - Classification file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_QualityClassification_Binary_60sData.csv with 621 rows
+2024-09-11 09:14:18 - Segment information file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Segmented_Group_Info_60s.csv with 621 rows
+2024-09-11 09:14:18 - ===== Summary of FM- and FM+ Children =====
+2024-09-11 09:14:18 - Number of children classified as FM- (0): 7
+2024-09-11 09:14:18 - Number of children classified as FM+ (1): 87

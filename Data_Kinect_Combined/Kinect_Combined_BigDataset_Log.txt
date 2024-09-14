@@ -1,0 +1,1528 @@
+2024-09-05 12:28:10 - Starting creation of the combined Kinect dataset
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (388, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (1121, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (1469, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (1862, 30, 99)
+2024-09-05 12:28:10 - Skipping child ID: 005 as it is in the excluded list.
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (2178, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (2543, 30, 99)
+2024-09-05 12:28:10 - Skipping child ID: 008 as it is in the excluded list.
+2024-09-05 12:28:10 - Skipping child ID: 009 as it is in the excluded list.
+2024-09-05 12:28:10 - Skipping child ID: 010 as it is in the excluded list.
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (2967, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (3441, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (3804, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-05 12:28:10 - Updated combined dataset shape: (4283, 30, 99)
+2024-09-05 12:28:10 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (4809, 30, 99)
+2024-09-05 12:28:11 - Skipping child ID: 016 as it is in the excluded list.
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (5365, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (5973, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (6587, 30, 99)
+2024-09-05 12:28:11 - Skipping child ID: 020 as it is in the excluded list.
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (7200, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (7788, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (8414, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (8720, 30, 99)
+2024-09-05 12:28:11 - Skipping child ID: 025 as it is in the excluded list.
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (9033, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (9521, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (9937, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (10351, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (10781, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (11038, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (11283, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (11601, 30, 99)
+2024-09-05 12:28:11 - Skipping child ID: 034 as it is in the excluded list.
+2024-09-05 12:28:11 - Skipping child ID: 035 as it is in the excluded list.
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (11964, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (12867, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (13424, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (13970, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (14458, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (14853, 30, 99)
+2024-09-05 12:28:11 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (15344, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (15665, 30, 99)
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-05 12:28:11 - Updated combined dataset shape: (16066, 30, 99)
+2024-09-05 12:28:11 - Skipping child ID: 046 as it is in the excluded list.
+2024-09-05 12:28:11 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (16459, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (16905, 30, 99)
+2024-09-05 12:28:12 - Skipping child ID: 049 as it is in the excluded list.
+2024-09-05 12:28:12 - Skipping child ID: 050 as it is in the excluded list.
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (17292, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (17653, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (18123, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (18405, 30, 99)
+2024-09-05 12:28:12 - Skipping child ID: 055 as it is in the excluded list.
+2024-09-05 12:28:12 - Skipping child ID: 057 as it is in the excluded list.
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (18858, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (19287, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (19691, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (20162, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (20588, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (21032, 30, 99)
+2024-09-05 12:28:12 - Skipping child ID: 067 as it is in the excluded list.
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (21406, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (21839, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (22250, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (22748, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (23253, 30, 99)
+2024-09-05 12:28:12 - Skipping child ID: 075 as it is in the excluded list.
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-05 12:28:12 - Updated combined dataset shape: (23729, 30, 99)
+2024-09-05 12:28:12 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (24094, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (24459, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (24886, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (25269, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (25388, 30, 99)
+2024-09-05 12:28:13 - Skipping child ID: 082 as it is in the excluded list.
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (25761, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (26199, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (26625, 30, 99)
+2024-09-05 12:28:13 - Skipping child ID: 086 as it is in the excluded list.
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (26940, 30, 99)
+2024-09-05 12:28:13 - Skipping child ID: 088 as it is in the excluded list.
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (27366, 30, 99)
+2024-09-05 12:28:13 - Skipping child ID: 091 as it is in the excluded list.
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (27794, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (28334, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (28675, 30, 99)
+2024-09-05 12:28:13 - Skipping child ID: 096 as it is in the excluded list.
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (29196, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (29604, 30, 99)
+2024-09-05 12:28:13 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-05 12:28:13 - Updated combined dataset shape: (29986, 30, 99)
+2024-09-05 12:28:13 - Skipping child ID: 100 as it is in the excluded list.
+2024-09-05 12:28:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:28:14 - Updated combined dataset shape: (30424, 30, 99)
+2024-09-05 12:28:14 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-05 12:28:14 - Updated combined dataset shape: (30556, 30, 99)
+2024-09-05 12:28:14 - Skipping child ID: 103 as it is in the excluded list.
+2024-09-05 12:28:14 - Combined Kinect dataset created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Combined_BigDataset.npy with shape (30556, 30, 99)
+
+2024-09-05 12:28:14 - ===== Summary =====
+2024-09-05 12:28:14 - Total number of files included: 71
+2024-09-05 12:28:14 - Child ID: 001, Data Shape: (388, 30, 99)
+2024-09-05 12:28:14 - Child ID: 002, Data Shape: (733, 30, 99)
+2024-09-05 12:28:14 - Child ID: 003, Data Shape: (348, 30, 99)
+2024-09-05 12:28:14 - Child ID: 004, Data Shape: (393, 30, 99)
+2024-09-05 12:28:14 - Child ID: 006, Data Shape: (316, 30, 99)
+2024-09-05 12:28:14 - Child ID: 007, Data Shape: (365, 30, 99)
+2024-09-05 12:28:14 - Child ID: 011, Data Shape: (424, 30, 99)
+2024-09-05 12:28:14 - Child ID: 012, Data Shape: (474, 30, 99)
+2024-09-05 12:28:14 - Child ID: 013, Data Shape: (363, 30, 99)
+2024-09-05 12:28:14 - Child ID: 014, Data Shape: (479, 30, 99)
+2024-09-05 12:28:14 - Child ID: 015, Data Shape: (526, 30, 99)
+2024-09-05 12:28:14 - Child ID: 017, Data Shape: (556, 30, 99)
+2024-09-05 12:28:14 - Child ID: 018, Data Shape: (608, 30, 99)
+2024-09-05 12:28:14 - Child ID: 019, Data Shape: (614, 30, 99)
+2024-09-05 12:28:14 - Child ID: 021, Data Shape: (613, 30, 99)
+2024-09-05 12:28:14 - Child ID: 022, Data Shape: (588, 30, 99)
+2024-09-05 12:28:14 - Child ID: 023, Data Shape: (626, 30, 99)
+2024-09-05 12:28:14 - Child ID: 024, Data Shape: (306, 30, 99)
+2024-09-05 12:28:14 - Child ID: 026, Data Shape: (313, 30, 99)
+2024-09-05 12:28:14 - Child ID: 027, Data Shape: (488, 30, 99)
+2024-09-05 12:28:14 - Child ID: 028, Data Shape: (416, 30, 99)
+2024-09-05 12:28:14 - Child ID: 029, Data Shape: (414, 30, 99)
+2024-09-05 12:28:14 - Child ID: 030, Data Shape: (430, 30, 99)
+2024-09-05 12:28:14 - Child ID: 031, Data Shape: (257, 30, 99)
+2024-09-05 12:28:14 - Child ID: 032, Data Shape: (245, 30, 99)
+2024-09-05 12:28:14 - Child ID: 033, Data Shape: (318, 30, 99)
+2024-09-05 12:28:14 - Child ID: 036, Data Shape: (363, 30, 99)
+2024-09-05 12:28:14 - Child ID: 037, Data Shape: (903, 30, 99)
+2024-09-05 12:28:14 - Child ID: 038, Data Shape: (557, 30, 99)
+2024-09-05 12:28:14 - Child ID: 039, Data Shape: (546, 30, 99)
+2024-09-05 12:28:14 - Child ID: 040, Data Shape: (488, 30, 99)
+2024-09-05 12:28:14 - Child ID: 041, Data Shape: (395, 30, 99)
+2024-09-05 12:28:14 - Child ID: 043, Data Shape: (491, 30, 99)
+2024-09-05 12:28:14 - Child ID: 044, Data Shape: (321, 30, 99)
+2024-09-05 12:28:14 - Child ID: 045, Data Shape: (401, 30, 99)
+2024-09-05 12:28:14 - Child ID: 047, Data Shape: (393, 30, 99)
+2024-09-05 12:28:14 - Child ID: 048, Data Shape: (446, 30, 99)
+2024-09-05 12:28:14 - Child ID: 051, Data Shape: (387, 30, 99)
+2024-09-05 12:28:14 - Child ID: 052, Data Shape: (361, 30, 99)
+2024-09-05 12:28:14 - Child ID: 053, Data Shape: (470, 30, 99)
+2024-09-05 12:28:14 - Child ID: 054, Data Shape: (282, 30, 99)
+2024-09-05 12:28:14 - Child ID: 058, Data Shape: (453, 30, 99)
+2024-09-05 12:28:14 - Child ID: 059, Data Shape: (429, 30, 99)
+2024-09-05 12:28:14 - Child ID: 060, Data Shape: (404, 30, 99)
+2024-09-05 12:28:14 - Child ID: 063, Data Shape: (471, 30, 99)
+2024-09-05 12:28:14 - Child ID: 065, Data Shape: (426, 30, 99)
+2024-09-05 12:28:14 - Child ID: 066, Data Shape: (444, 30, 99)
+2024-09-05 12:28:14 - Child ID: 068, Data Shape: (374, 30, 99)
+2024-09-05 12:28:14 - Child ID: 071, Data Shape: (433, 30, 99)
+2024-09-05 12:28:14 - Child ID: 072, Data Shape: (411, 30, 99)
+2024-09-05 12:28:14 - Child ID: 073, Data Shape: (498, 30, 99)
+2024-09-05 12:28:14 - Child ID: 074, Data Shape: (505, 30, 99)
+2024-09-05 12:28:14 - Child ID: 076, Data Shape: (476, 30, 99)
+2024-09-05 12:28:14 - Child ID: 077, Data Shape: (365, 30, 99)
+2024-09-05 12:28:14 - Child ID: 078, Data Shape: (365, 30, 99)
+2024-09-05 12:28:14 - Child ID: 079, Data Shape: (427, 30, 99)
+2024-09-05 12:28:14 - Child ID: 080, Data Shape: (383, 30, 99)
+2024-09-05 12:28:14 - Child ID: 081, Data Shape: (119, 30, 99)
+2024-09-05 12:28:14 - Child ID: 083, Data Shape: (373, 30, 99)
+2024-09-05 12:28:14 - Child ID: 084, Data Shape: (438, 30, 99)
+2024-09-05 12:28:14 - Child ID: 085, Data Shape: (426, 30, 99)
+2024-09-05 12:28:14 - Child ID: 087, Data Shape: (315, 30, 99)
+2024-09-05 12:28:14 - Child ID: 090, Data Shape: (426, 30, 99)
+2024-09-05 12:28:14 - Child ID: 092, Data Shape: (428, 30, 99)
+2024-09-05 12:28:14 - Child ID: 093, Data Shape: (540, 30, 99)
+2024-09-05 12:28:14 - Child ID: 095, Data Shape: (341, 30, 99)
+2024-09-05 12:28:14 - Child ID: 097, Data Shape: (521, 30, 99)
+2024-09-05 12:28:14 - Child ID: 098, Data Shape: (408, 30, 99)
+2024-09-05 12:28:14 - Child ID: 099, Data Shape: (382, 30, 99)
+2024-09-05 12:28:14 - Child ID: 101, Data Shape: (438, 30, 99)
+2024-09-05 12:28:14 - Child ID: 102, Data Shape: (132, 30, 99)
+2024-09-05 12:28:14 - Validation successful: The total number of rows in the combined dataset matches the sum of all individual files.
+2024-09-05 12:28:14 - ===== Excluded Samples =====
+2024-09-05 12:28:14 - Excluded child IDs: 005, 008, 009, 010, 016, 020, 025, 034, 035, 042, 046, 049, 050, 055, 057, 067, 075, 082, 086, 088, 091, 096, 100, 103
+2024-09-05 12:30:22 - Starting creation of the combined Kinect dataset
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (388, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (1121, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (1469, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (1862, 30, 99)
+2024-09-05 12:30:22 - Skipping child ID: 005 as it is in the excluded list.
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (2178, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (2543, 30, 99)
+2024-09-05 12:30:22 - Skipping child ID: 008 as it is in the excluded list.
+2024-09-05 12:30:22 - Skipping child ID: 009 as it is in the excluded list.
+2024-09-05 12:30:22 - Skipping child ID: 010 as it is in the excluded list.
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (2967, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (3441, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (3804, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (4283, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (4809, 30, 99)
+2024-09-05 12:30:22 - Skipping child ID: 016 as it is in the excluded list.
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (5365, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-05 12:30:22 - Updated combined dataset shape: (5973, 30, 99)
+2024-09-05 12:30:22 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (6587, 30, 99)
+2024-09-05 12:30:23 - Skipping child ID: 020 as it is in the excluded list.
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (7200, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (7788, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (8414, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (8720, 30, 99)
+2024-09-05 12:30:23 - Skipping child ID: 025 as it is in the excluded list.
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (9033, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (9521, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (9937, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (10351, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (10781, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (11038, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (11283, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (11601, 30, 99)
+2024-09-05 12:30:23 - Skipping child ID: 034 as it is in the excluded list.
+2024-09-05 12:30:23 - Skipping child ID: 035 as it is in the excluded list.
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (11964, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (12867, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (13424, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (13970, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (14458, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (14853, 30, 99)
+2024-09-05 12:30:23 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (15344, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (15665, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (16066, 30, 99)
+2024-09-05 12:30:23 - Skipping child ID: 046 as it is in the excluded list.
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (16459, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (16905, 30, 99)
+2024-09-05 12:30:23 - Skipping child ID: 049 as it is in the excluded list.
+2024-09-05 12:30:23 - Skipping child ID: 050 as it is in the excluded list.
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (17292, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (17653, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (18123, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (18405, 30, 99)
+2024-09-05 12:30:23 - Skipping child ID: 055 as it is in the excluded list.
+2024-09-05 12:30:23 - Skipping child ID: 057 as it is in the excluded list.
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (18858, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (19287, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (19691, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (20162, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:30:23 - Updated combined dataset shape: (20588, 30, 99)
+2024-09-05 12:30:23 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (21032, 30, 99)
+2024-09-05 12:30:24 - Skipping child ID: 067 as it is in the excluded list.
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (21406, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (21839, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (22250, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (22748, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (23253, 30, 99)
+2024-09-05 12:30:24 - Skipping child ID: 075 as it is in the excluded list.
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (23729, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (24094, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (24459, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (24886, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (25269, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (25388, 30, 99)
+2024-09-05 12:30:24 - Skipping child ID: 082 as it is in the excluded list.
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (25761, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (26199, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (26625, 30, 99)
+2024-09-05 12:30:24 - Skipping child ID: 086 as it is in the excluded list.
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (26940, 30, 99)
+2024-09-05 12:30:24 - Skipping child ID: 088 as it is in the excluded list.
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (27366, 30, 99)
+2024-09-05 12:30:24 - Skipping child ID: 091 as it is in the excluded list.
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (27794, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (28334, 30, 99)
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-05 12:30:24 - Updated combined dataset shape: (28675, 30, 99)
+2024-09-05 12:30:24 - Skipping child ID: 096 as it is in the excluded list.
+2024-09-05 12:30:24 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-05 12:30:25 - Updated combined dataset shape: (29196, 30, 99)
+2024-09-05 12:30:25 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-05 12:30:25 - Updated combined dataset shape: (29604, 30, 99)
+2024-09-05 12:30:25 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-05 12:30:25 - Updated combined dataset shape: (29986, 30, 99)
+2024-09-05 12:30:25 - Skipping child ID: 100 as it is in the excluded list.
+2024-09-05 12:30:25 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:30:25 - Updated combined dataset shape: (30424, 30, 99)
+2024-09-05 12:30:25 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-05 12:30:25 - Updated combined dataset shape: (30556, 30, 99)
+2024-09-05 12:30:25 - Skipping child ID: 103 as it is in the excluded list.
+2024-09-05 12:30:25 - Combined Kinect dataset created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Combined_BigDataset.npy with shape (30556, 30, 99)
+
+2024-09-05 12:30:25 - ===== Summary =====
+2024-09-05 12:30:25 - Total number of files included: 71
+2024-09-05 12:30:25 - Child ID: 001, Data Shape: (388, 30, 99)
+2024-09-05 12:30:25 - Child ID: 002, Data Shape: (733, 30, 99)
+2024-09-05 12:30:25 - Child ID: 003, Data Shape: (348, 30, 99)
+2024-09-05 12:30:25 - Child ID: 004, Data Shape: (393, 30, 99)
+2024-09-05 12:30:25 - Child ID: 006, Data Shape: (316, 30, 99)
+2024-09-05 12:30:25 - Child ID: 007, Data Shape: (365, 30, 99)
+2024-09-05 12:30:25 - Child ID: 011, Data Shape: (424, 30, 99)
+2024-09-05 12:30:25 - Child ID: 012, Data Shape: (474, 30, 99)
+2024-09-05 12:30:25 - Child ID: 013, Data Shape: (363, 30, 99)
+2024-09-05 12:30:25 - Child ID: 014, Data Shape: (479, 30, 99)
+2024-09-05 12:30:25 - Child ID: 015, Data Shape: (526, 30, 99)
+2024-09-05 12:30:25 - Child ID: 017, Data Shape: (556, 30, 99)
+2024-09-05 12:30:25 - Child ID: 018, Data Shape: (608, 30, 99)
+2024-09-05 12:30:25 - Child ID: 019, Data Shape: (614, 30, 99)
+2024-09-05 12:30:25 - Child ID: 021, Data Shape: (613, 30, 99)
+2024-09-05 12:30:25 - Child ID: 022, Data Shape: (588, 30, 99)
+2024-09-05 12:30:25 - Child ID: 023, Data Shape: (626, 30, 99)
+2024-09-05 12:30:25 - Child ID: 024, Data Shape: (306, 30, 99)
+2024-09-05 12:30:25 - Child ID: 026, Data Shape: (313, 30, 99)
+2024-09-05 12:30:25 - Child ID: 027, Data Shape: (488, 30, 99)
+2024-09-05 12:30:25 - Child ID: 028, Data Shape: (416, 30, 99)
+2024-09-05 12:30:25 - Child ID: 029, Data Shape: (414, 30, 99)
+2024-09-05 12:30:25 - Child ID: 030, Data Shape: (430, 30, 99)
+2024-09-05 12:30:25 - Child ID: 031, Data Shape: (257, 30, 99)
+2024-09-05 12:30:25 - Child ID: 032, Data Shape: (245, 30, 99)
+2024-09-05 12:30:25 - Child ID: 033, Data Shape: (318, 30, 99)
+2024-09-05 12:30:25 - Child ID: 036, Data Shape: (363, 30, 99)
+2024-09-05 12:30:25 - Child ID: 037, Data Shape: (903, 30, 99)
+2024-09-05 12:30:25 - Child ID: 038, Data Shape: (557, 30, 99)
+2024-09-05 12:30:25 - Child ID: 039, Data Shape: (546, 30, 99)
+2024-09-05 12:30:25 - Child ID: 040, Data Shape: (488, 30, 99)
+2024-09-05 12:30:25 - Child ID: 041, Data Shape: (395, 30, 99)
+2024-09-05 12:30:25 - Child ID: 043, Data Shape: (491, 30, 99)
+2024-09-05 12:30:25 - Child ID: 044, Data Shape: (321, 30, 99)
+2024-09-05 12:30:25 - Child ID: 045, Data Shape: (401, 30, 99)
+2024-09-05 12:30:25 - Child ID: 047, Data Shape: (393, 30, 99)
+2024-09-05 12:30:25 - Child ID: 048, Data Shape: (446, 30, 99)
+2024-09-05 12:30:25 - Child ID: 051, Data Shape: (387, 30, 99)
+2024-09-05 12:30:25 - Child ID: 052, Data Shape: (361, 30, 99)
+2024-09-05 12:30:25 - Child ID: 053, Data Shape: (470, 30, 99)
+2024-09-05 12:30:25 - Child ID: 054, Data Shape: (282, 30, 99)
+2024-09-05 12:30:25 - Child ID: 058, Data Shape: (453, 30, 99)
+2024-09-05 12:30:25 - Child ID: 059, Data Shape: (429, 30, 99)
+2024-09-05 12:30:25 - Child ID: 060, Data Shape: (404, 30, 99)
+2024-09-05 12:30:25 - Child ID: 063, Data Shape: (471, 30, 99)
+2024-09-05 12:30:25 - Child ID: 065, Data Shape: (426, 30, 99)
+2024-09-05 12:30:25 - Child ID: 066, Data Shape: (444, 30, 99)
+2024-09-05 12:30:25 - Child ID: 068, Data Shape: (374, 30, 99)
+2024-09-05 12:30:25 - Child ID: 071, Data Shape: (433, 30, 99)
+2024-09-05 12:30:25 - Child ID: 072, Data Shape: (411, 30, 99)
+2024-09-05 12:30:25 - Child ID: 073, Data Shape: (498, 30, 99)
+2024-09-05 12:30:25 - Child ID: 074, Data Shape: (505, 30, 99)
+2024-09-05 12:30:25 - Child ID: 076, Data Shape: (476, 30, 99)
+2024-09-05 12:30:25 - Child ID: 077, Data Shape: (365, 30, 99)
+2024-09-05 12:30:25 - Child ID: 078, Data Shape: (365, 30, 99)
+2024-09-05 12:30:25 - Child ID: 079, Data Shape: (427, 30, 99)
+2024-09-05 12:30:25 - Child ID: 080, Data Shape: (383, 30, 99)
+2024-09-05 12:30:25 - Child ID: 081, Data Shape: (119, 30, 99)
+2024-09-05 12:30:25 - Child ID: 083, Data Shape: (373, 30, 99)
+2024-09-05 12:30:25 - Child ID: 084, Data Shape: (438, 30, 99)
+2024-09-05 12:30:25 - Child ID: 085, Data Shape: (426, 30, 99)
+2024-09-05 12:30:25 - Child ID: 087, Data Shape: (315, 30, 99)
+2024-09-05 12:30:25 - Child ID: 090, Data Shape: (426, 30, 99)
+2024-09-05 12:30:25 - Child ID: 092, Data Shape: (428, 30, 99)
+2024-09-05 12:30:25 - Child ID: 093, Data Shape: (540, 30, 99)
+2024-09-05 12:30:25 - Child ID: 095, Data Shape: (341, 30, 99)
+2024-09-05 12:30:25 - Child ID: 097, Data Shape: (521, 30, 99)
+2024-09-05 12:30:25 - Child ID: 098, Data Shape: (408, 30, 99)
+2024-09-05 12:30:25 - Child ID: 099, Data Shape: (382, 30, 99)
+2024-09-05 12:30:25 - Child ID: 101, Data Shape: (438, 30, 99)
+2024-09-05 12:30:25 - Child ID: 102, Data Shape: (132, 30, 99)
+2024-09-05 12:30:25 - Validation successful: The total number of rows in the combined dataset matches the sum of all individual files.
+2024-09-05 12:30:25 - ===== Excluded Samples =====
+2024-09-05 12:30:25 - Excluded child IDs: 005, 008, 009, 010, 016, 020, 025, 034, 035, 042, 046, 049, 050, 055, 057, 067, 075, 082, 086, 088, 091, 096, 100, 103
+2024-09-05 12:34:29 - Starting creation of the combined Kinect dataset
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (388, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (1121, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (1469, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (1862, 30, 99)
+2024-09-05 12:34:29 - Skipping child ID: 005 as it is in the excluded list.
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (2178, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (2543, 30, 99)
+2024-09-05 12:34:29 - Skipping child ID: 008 as it is in the excluded list.
+2024-09-05 12:34:29 - Skipping child ID: 009 as it is in the excluded list.
+2024-09-05 12:34:29 - Skipping child ID: 010 as it is in the excluded list.
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (2967, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (3441, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (3804, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (4283, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (4809, 30, 99)
+2024-09-05 12:34:29 - Skipping child ID: 016 as it is in the excluded list.
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (5365, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-05 12:34:29 - Updated combined dataset shape: (5973, 30, 99)
+2024-09-05 12:34:29 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (6587, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 020 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (7200, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (7788, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (8414, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (8720, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 025 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (9033, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (9521, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (9937, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (10351, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (10781, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (11038, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (11283, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (11601, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 034 as it is in the excluded list.
+2024-09-05 12:34:30 - Skipping child ID: 035 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (11964, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (12867, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (13424, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (13970, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (14458, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (14853, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (15344, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (15665, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (16066, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 046 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (16459, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (16905, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 049 as it is in the excluded list.
+2024-09-05 12:34:30 - Skipping child ID: 050 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (17292, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (17653, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (18123, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (18405, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 055 as it is in the excluded list.
+2024-09-05 12:34:30 - Skipping child ID: 057 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (18858, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (19287, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (19691, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (20162, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (20588, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (21032, 30, 99)
+2024-09-05 12:34:30 - Skipping child ID: 067 as it is in the excluded list.
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (21406, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (21839, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-05 12:34:30 - Updated combined dataset shape: (22250, 30, 99)
+2024-09-05 12:34:30 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (22748, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (23253, 30, 99)
+2024-09-05 12:34:31 - Skipping child ID: 075 as it is in the excluded list.
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (23729, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (24094, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (24459, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (24886, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (25269, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (25388, 30, 99)
+2024-09-05 12:34:31 - Skipping child ID: 082 as it is in the excluded list.
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (25761, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (26199, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (26625, 30, 99)
+2024-09-05 12:34:31 - Skipping child ID: 086 as it is in the excluded list.
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (26940, 30, 99)
+2024-09-05 12:34:31 - Skipping child ID: 088 as it is in the excluded list.
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (27366, 30, 99)
+2024-09-05 12:34:31 - Skipping child ID: 091 as it is in the excluded list.
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (27794, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (28334, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (28675, 30, 99)
+2024-09-05 12:34:31 - Skipping child ID: 096 as it is in the excluded list.
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (29196, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-05 12:34:31 - Updated combined dataset shape: (29604, 30, 99)
+2024-09-05 12:34:31 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-05 12:34:32 - Updated combined dataset shape: (29986, 30, 99)
+2024-09-05 12:34:32 - Skipping child ID: 100 as it is in the excluded list.
+2024-09-05 12:34:32 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:34:32 - Updated combined dataset shape: (30424, 30, 99)
+2024-09-05 12:34:32 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-05 12:34:32 - Updated combined dataset shape: (30556, 30, 99)
+2024-09-05 12:34:32 - Skipping child ID: 103 as it is in the excluded list.
+2024-09-05 12:34:32 - Combined Kinect dataset created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Combined_BigDataset.npy with shape (30556, 30, 99)
+
+2024-09-05 12:34:32 - ===== Summary =====
+2024-09-05 12:34:32 - Total number of files included: 71
+2024-09-05 12:34:32 - Child ID: 001, Data Shape: (388, 30, 99)
+2024-09-05 12:34:32 - Child ID: 002, Data Shape: (733, 30, 99)
+2024-09-05 12:34:32 - Child ID: 003, Data Shape: (348, 30, 99)
+2024-09-05 12:34:32 - Child ID: 004, Data Shape: (393, 30, 99)
+2024-09-05 12:34:32 - Child ID: 006, Data Shape: (316, 30, 99)
+2024-09-05 12:34:32 - Child ID: 007, Data Shape: (365, 30, 99)
+2024-09-05 12:34:32 - Child ID: 011, Data Shape: (424, 30, 99)
+2024-09-05 12:34:32 - Child ID: 012, Data Shape: (474, 30, 99)
+2024-09-05 12:34:32 - Child ID: 013, Data Shape: (363, 30, 99)
+2024-09-05 12:34:32 - Child ID: 014, Data Shape: (479, 30, 99)
+2024-09-05 12:34:32 - Child ID: 015, Data Shape: (526, 30, 99)
+2024-09-05 12:34:32 - Child ID: 017, Data Shape: (556, 30, 99)
+2024-09-05 12:34:32 - Child ID: 018, Data Shape: (608, 30, 99)
+2024-09-05 12:34:32 - Child ID: 019, Data Shape: (614, 30, 99)
+2024-09-05 12:34:32 - Child ID: 021, Data Shape: (613, 30, 99)
+2024-09-05 12:34:32 - Child ID: 022, Data Shape: (588, 30, 99)
+2024-09-05 12:34:32 - Child ID: 023, Data Shape: (626, 30, 99)
+2024-09-05 12:34:32 - Child ID: 024, Data Shape: (306, 30, 99)
+2024-09-05 12:34:32 - Child ID: 026, Data Shape: (313, 30, 99)
+2024-09-05 12:34:32 - Child ID: 027, Data Shape: (488, 30, 99)
+2024-09-05 12:34:32 - Child ID: 028, Data Shape: (416, 30, 99)
+2024-09-05 12:34:32 - Child ID: 029, Data Shape: (414, 30, 99)
+2024-09-05 12:34:32 - Child ID: 030, Data Shape: (430, 30, 99)
+2024-09-05 12:34:32 - Child ID: 031, Data Shape: (257, 30, 99)
+2024-09-05 12:34:32 - Child ID: 032, Data Shape: (245, 30, 99)
+2024-09-05 12:34:32 - Child ID: 033, Data Shape: (318, 30, 99)
+2024-09-05 12:34:32 - Child ID: 036, Data Shape: (363, 30, 99)
+2024-09-05 12:34:32 - Child ID: 037, Data Shape: (903, 30, 99)
+2024-09-05 12:34:32 - Child ID: 038, Data Shape: (557, 30, 99)
+2024-09-05 12:34:32 - Child ID: 039, Data Shape: (546, 30, 99)
+2024-09-05 12:34:32 - Child ID: 040, Data Shape: (488, 30, 99)
+2024-09-05 12:34:32 - Child ID: 041, Data Shape: (395, 30, 99)
+2024-09-05 12:34:32 - Child ID: 043, Data Shape: (491, 30, 99)
+2024-09-05 12:34:32 - Child ID: 044, Data Shape: (321, 30, 99)
+2024-09-05 12:34:32 - Child ID: 045, Data Shape: (401, 30, 99)
+2024-09-05 12:34:32 - Child ID: 047, Data Shape: (393, 30, 99)
+2024-09-05 12:34:32 - Child ID: 048, Data Shape: (446, 30, 99)
+2024-09-05 12:34:32 - Child ID: 051, Data Shape: (387, 30, 99)
+2024-09-05 12:34:32 - Child ID: 052, Data Shape: (361, 30, 99)
+2024-09-05 12:34:32 - Child ID: 053, Data Shape: (470, 30, 99)
+2024-09-05 12:34:32 - Child ID: 054, Data Shape: (282, 30, 99)
+2024-09-05 12:34:32 - Child ID: 058, Data Shape: (453, 30, 99)
+2024-09-05 12:34:32 - Child ID: 059, Data Shape: (429, 30, 99)
+2024-09-05 12:34:32 - Child ID: 060, Data Shape: (404, 30, 99)
+2024-09-05 12:34:32 - Child ID: 063, Data Shape: (471, 30, 99)
+2024-09-05 12:34:32 - Child ID: 065, Data Shape: (426, 30, 99)
+2024-09-05 12:34:32 - Child ID: 066, Data Shape: (444, 30, 99)
+2024-09-05 12:34:32 - Child ID: 068, Data Shape: (374, 30, 99)
+2024-09-05 12:34:32 - Child ID: 071, Data Shape: (433, 30, 99)
+2024-09-05 12:34:32 - Child ID: 072, Data Shape: (411, 30, 99)
+2024-09-05 12:34:32 - Child ID: 073, Data Shape: (498, 30, 99)
+2024-09-05 12:34:32 - Child ID: 074, Data Shape: (505, 30, 99)
+2024-09-05 12:34:32 - Child ID: 076, Data Shape: (476, 30, 99)
+2024-09-05 12:34:32 - Child ID: 077, Data Shape: (365, 30, 99)
+2024-09-05 12:34:32 - Child ID: 078, Data Shape: (365, 30, 99)
+2024-09-05 12:34:32 - Child ID: 079, Data Shape: (427, 30, 99)
+2024-09-05 12:34:32 - Child ID: 080, Data Shape: (383, 30, 99)
+2024-09-05 12:34:32 - Child ID: 081, Data Shape: (119, 30, 99)
+2024-09-05 12:34:32 - Child ID: 083, Data Shape: (373, 30, 99)
+2024-09-05 12:34:32 - Child ID: 084, Data Shape: (438, 30, 99)
+2024-09-05 12:34:32 - Child ID: 085, Data Shape: (426, 30, 99)
+2024-09-05 12:34:32 - Child ID: 087, Data Shape: (315, 30, 99)
+2024-09-05 12:34:32 - Child ID: 090, Data Shape: (426, 30, 99)
+2024-09-05 12:34:32 - Child ID: 092, Data Shape: (428, 30, 99)
+2024-09-05 12:34:32 - Child ID: 093, Data Shape: (540, 30, 99)
+2024-09-05 12:34:32 - Child ID: 095, Data Shape: (341, 30, 99)
+2024-09-05 12:34:32 - Child ID: 097, Data Shape: (521, 30, 99)
+2024-09-05 12:34:32 - Child ID: 098, Data Shape: (408, 30, 99)
+2024-09-05 12:34:32 - Child ID: 099, Data Shape: (382, 30, 99)
+2024-09-05 12:34:32 - Child ID: 101, Data Shape: (438, 30, 99)
+2024-09-05 12:34:32 - Child ID: 102, Data Shape: (132, 30, 99)
+2024-09-05 12:34:32 - Validation successful: The total number of rows in the combined dataset matches the sum of all individual files.
+2024-09-05 12:34:32 - ===== Excluded Samples =====
+2024-09-05 12:34:32 - Excluded child IDs: 005, 008, 009, 010, 016, 020, 025, 034, 035, 042, 046, 049, 050, 055, 057, 067, 075, 082, 086, 088, 091, 096, 100, 103
+2024-09-05 12:34:32 - Loaded binary classification data from C:\GitRepositories\Master_Thesis\FM_QualityClassification\FM_QualityClassification_Binary.csv
+2024-09-05 12:34:32 - Child ID: 001 - Assigned classification '1' for rows 2 to 389.
+2024-09-05 12:34:32 - Child ID: 002 - Assigned classification '1' for rows 390 to 1122.
+2024-09-05 12:34:32 - Child ID: 003 - Assigned classification '0' for rows 1123 to 1470.
+2024-09-05 12:34:32 - Child ID: 004 - Assigned classification '1' for rows 1471 to 1863.
+2024-09-05 12:34:32 - Child ID: 006 - Assigned classification '1' for rows 1864 to 2179.
+2024-09-05 12:34:32 - Child ID: 007 - Assigned classification '1' for rows 2180 to 2544.
+2024-09-05 12:34:32 - Child ID: 011 - Assigned classification '1' for rows 2545 to 2968.
+2024-09-05 12:34:32 - Child ID: 012 - Assigned classification '1' for rows 2969 to 3442.
+2024-09-05 12:34:32 - Child ID: 013 - Assigned classification '1' for rows 3443 to 3805.
+2024-09-05 12:34:32 - Child ID: 014 - Assigned classification '0' for rows 3806 to 4284.
+2024-09-05 12:34:32 - Child ID: 015 - Assigned classification '1' for rows 4285 to 4810.
+2024-09-05 12:34:32 - Child ID: 017 - Assigned classification '1' for rows 4811 to 5366.
+2024-09-05 12:34:32 - Child ID: 018 - Assigned classification '1' for rows 5367 to 5974.
+2024-09-05 12:34:32 - Child ID: 019 - Assigned classification '1' for rows 5975 to 6588.
+2024-09-05 12:34:32 - Child ID: 021 - Assigned classification '1' for rows 6589 to 7201.
+2024-09-05 12:34:32 - Child ID: 022 - Assigned classification '1' for rows 7202 to 7789.
+2024-09-05 12:34:32 - Child ID: 023 - Assigned classification '1' for rows 7790 to 8415.
+2024-09-05 12:34:32 - Child ID: 024 - Assigned classification '1' for rows 8416 to 8721.
+2024-09-05 12:34:32 - Child ID: 026 - Assigned classification '1' for rows 8722 to 9034.
+2024-09-05 12:34:32 - Child ID: 027 - Assigned classification '1' for rows 9035 to 9522.
+2024-09-05 12:34:32 - Child ID: 028 - Assigned classification '1' for rows 9523 to 9938.
+2024-09-05 12:34:32 - Child ID: 029 - Assigned classification '1' for rows 9939 to 10352.
+2024-09-05 12:34:32 - Child ID: 030 - Assigned classification '1' for rows 10353 to 10782.
+2024-09-05 12:34:32 - Child ID: 031 - Assigned classification '0' for rows 10783 to 11039.
+2024-09-05 12:34:32 - Child ID: 032 - Assigned classification '1' for rows 11040 to 11284.
+2024-09-05 12:34:32 - Child ID: 033 - Assigned classification '1' for rows 11285 to 11602.
+2024-09-05 12:34:32 - Child ID: 036 - Assigned classification '1' for rows 11603 to 11965.
+2024-09-05 12:34:32 - Child ID: 037 - Assigned classification '1' for rows 11966 to 12868.
+2024-09-05 12:34:32 - Child ID: 038 - Assigned classification '1' for rows 12869 to 13425.
+2024-09-05 12:34:32 - Child ID: 039 - Assigned classification '1' for rows 13426 to 13971.
+2024-09-05 12:34:32 - Child ID: 040 - Assigned classification '1' for rows 13972 to 14459.
+2024-09-05 12:34:32 - Child ID: 041 - Assigned classification '1' for rows 14460 to 14854.
+2024-09-05 12:34:32 - Child ID: 043 - Assigned classification '1' for rows 14855 to 15345.
+2024-09-05 12:34:32 - Child ID: 044 - Assigned classification '1' for rows 15346 to 15666.
+2024-09-05 12:34:32 - Child ID: 045 - Assigned classification '1' for rows 15667 to 16067.
+2024-09-05 12:34:32 - Child ID: 047 - Assigned classification '1' for rows 16068 to 16460.
+2024-09-05 12:34:32 - Child ID: 048 - Assigned classification '0' for rows 16461 to 16906.
+2024-09-05 12:34:32 - Child ID: 051 - Assigned classification '1' for rows 16907 to 17293.
+2024-09-05 12:34:32 - Child ID: 052 - Assigned classification '1' for rows 17294 to 17654.
+2024-09-05 12:34:32 - Child ID: 053 - Assigned classification '1' for rows 17655 to 18124.
+2024-09-05 12:34:32 - Child ID: 054 - Assigned classification '1' for rows 18125 to 18406.
+2024-09-05 12:34:32 - Child ID: 058 - Assigned classification '1' for rows 18407 to 18859.
+2024-09-05 12:34:32 - Child ID: 059 - Assigned classification '0' for rows 18860 to 19288.
+2024-09-05 12:34:32 - Child ID: 060 - Assigned classification '1' for rows 19289 to 19692.
+2024-09-05 12:34:32 - Child ID: 063 - Assigned classification '1' for rows 19693 to 20163.
+2024-09-05 12:34:32 - Child ID: 065 - Assigned classification '1' for rows 20164 to 20589.
+2024-09-05 12:34:32 - Child ID: 066 - Assigned classification '1' for rows 20590 to 21033.
+2024-09-05 12:34:32 - Child ID: 068 - Assigned classification '0' for rows 21034 to 21407.
+2024-09-05 12:34:32 - Child ID: 071 - Assigned classification '1' for rows 21408 to 21840.
+2024-09-05 12:34:32 - Child ID: 072 - Assigned classification '1' for rows 21841 to 22251.
+2024-09-05 12:34:32 - Child ID: 073 - Assigned classification '1' for rows 22252 to 22749.
+2024-09-05 12:34:32 - Child ID: 074 - Assigned classification '1' for rows 22750 to 23254.
+2024-09-05 12:34:32 - Child ID: 076 - Assigned classification '1' for rows 23255 to 23730.
+2024-09-05 12:34:32 - Child ID: 077 - Assigned classification '0' for rows 23731 to 24095.
+2024-09-05 12:34:32 - Child ID: 078 - Assigned classification '1' for rows 24096 to 24460.
+2024-09-05 12:34:32 - Child ID: 079 - Assigned classification '1' for rows 24461 to 24887.
+2024-09-05 12:34:32 - Child ID: 080 - Assigned classification '1' for rows 24888 to 25270.
+2024-09-05 12:34:32 - Child ID: 081 - Assigned classification '1' for rows 25271 to 25389.
+2024-09-05 12:34:32 - Child ID: 083 - Assigned classification '1' for rows 25390 to 25762.
+2024-09-05 12:34:32 - Child ID: 084 - Assigned classification '1' for rows 25763 to 26200.
+2024-09-05 12:34:32 - Child ID: 085 - Assigned classification '1' for rows 26201 to 26626.
+2024-09-05 12:34:32 - Child ID: 087 - Assigned classification '1' for rows 26627 to 26941.
+2024-09-05 12:34:32 - Child ID: 090 - Assigned classification '1' for rows 26942 to 27367.
+2024-09-05 12:34:32 - Child ID: 092 - Assigned classification '1' for rows 27368 to 27795.
+2024-09-05 12:34:32 - Child ID: 093 - Assigned classification '1' for rows 27796 to 28335.
+2024-09-05 12:34:32 - Child ID: 095 - Assigned classification '1' for rows 28336 to 28676.
+2024-09-05 12:34:32 - Child ID: 097 - Assigned classification '1' for rows 28677 to 29197.
+2024-09-05 12:34:32 - Child ID: 098 - Assigned classification '1' for rows 29198 to 29605.
+2024-09-05 12:34:32 - Child ID: 099 - Assigned classification '1' for rows 29606 to 29987.
+2024-09-05 12:34:32 - Child ID: 101 - Assigned classification '1' for rows 29988 to 30425.
+2024-09-05 12:34:32 - Child ID: 102 - Assigned classification '1' for rows 30426 to 30557.
+2024-09-05 12:34:32 - Classification file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_QualityClassification_Binary_BigData.csv with 30556 rows
+2024-09-05 12:34:32 - Note: Row numbering starts from 1 due to the header row.
+2024-09-05 12:34:32 - ===== Excluded Samples for Classification =====
+2024-09-05 12:34:32 - Excluded child IDs: 005, 008, 009, 010, 016, 020, 025, 034, 035, 042, 046, 049, 050, 055, 057, 067, 075, 082, 086, 088, 091, 096, 100, 103
+2024-09-05 12:34:32 - Segment information file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Segmented_Group_Info.csv with 71 rows
+2024-09-05 12:34:32 - ===== Summary of FM- and FM+ Children =====
+2024-09-05 12:34:32 - Number of children classified as FM- (0): 7
+2024-09-05 12:34:32 - Number of children classified as FM+ (1): 64
+2024-09-05 12:57:46 - Starting creation of the combined Kinect dataset
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (388, 30, 99)
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (1121, 30, 99)
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (1469, 30, 99)
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (1862, 30, 99)
+2024-09-05 12:57:46 - Skipping child ID: 005 as it is in the excluded list.
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (2178, 30, 99)
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (2543, 30, 99)
+2024-09-05 12:57:46 - Skipping child ID: 008 as it is in the excluded list.
+2024-09-05 12:57:46 - Skipping child ID: 009 as it is in the excluded list.
+2024-09-05 12:57:46 - Skipping child ID: 010 as it is in the excluded list.
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (2967, 30, 99)
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-05 12:57:46 - Updated combined dataset shape: (3441, 30, 99)
+2024-09-05 12:57:46 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (3804, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (4283, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (4809, 30, 99)
+2024-09-05 12:57:47 - Skipping child ID: 016 as it is in the excluded list.
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (5365, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (5973, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (6587, 30, 99)
+2024-09-05 12:57:47 - Skipping child ID: 020 as it is in the excluded list.
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (7200, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (7788, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (8414, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (8720, 30, 99)
+2024-09-05 12:57:47 - Skipping child ID: 025 as it is in the excluded list.
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (9033, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (9521, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (9937, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (10351, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (10781, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (11038, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (11283, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (11601, 30, 99)
+2024-09-05 12:57:47 - Skipping child ID: 034 as it is in the excluded list.
+2024-09-05 12:57:47 - Skipping child ID: 035 as it is in the excluded list.
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (11964, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (12867, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (13424, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (13970, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (14458, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (14853, 30, 99)
+2024-09-05 12:57:47 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (15344, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (15665, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (16066, 30, 99)
+2024-09-05 12:57:47 - Skipping child ID: 046 as it is in the excluded list.
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (16459, 30, 99)
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-05 12:57:47 - Updated combined dataset shape: (16905, 30, 99)
+2024-09-05 12:57:47 - Skipping child ID: 049 as it is in the excluded list.
+2024-09-05 12:57:47 - Skipping child ID: 050 as it is in the excluded list.
+2024-09-05 12:57:47 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (17292, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (17653, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (18123, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (18405, 30, 99)
+2024-09-05 12:57:48 - Skipping child ID: 055 as it is in the excluded list.
+2024-09-05 12:57:48 - Skipping child ID: 057 as it is in the excluded list.
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (18858, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (19287, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (19691, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (20162, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (20588, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (21032, 30, 99)
+2024-09-05 12:57:48 - Skipping child ID: 067 as it is in the excluded list.
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (21406, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (21839, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (22250, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (22748, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (23253, 30, 99)
+2024-09-05 12:57:48 - Skipping child ID: 075 as it is in the excluded list.
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (23729, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (24094, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (24459, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-05 12:57:48 - Updated combined dataset shape: (24886, 30, 99)
+2024-09-05 12:57:48 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (25269, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (25388, 30, 99)
+2024-09-05 12:57:49 - Skipping child ID: 082 as it is in the excluded list.
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (25761, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (26199, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (26625, 30, 99)
+2024-09-05 12:57:49 - Skipping child ID: 086 as it is in the excluded list.
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (26940, 30, 99)
+2024-09-05 12:57:49 - Skipping child ID: 088 as it is in the excluded list.
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (27366, 30, 99)
+2024-09-05 12:57:49 - Skipping child ID: 091 as it is in the excluded list.
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (27794, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (28334, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (28675, 30, 99)
+2024-09-05 12:57:49 - Skipping child ID: 096 as it is in the excluded list.
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (29196, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (29604, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (29986, 30, 99)
+2024-09-05 12:57:49 - Skipping child ID: 100 as it is in the excluded list.
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (30424, 30, 99)
+2024-09-05 12:57:49 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-05 12:57:49 - Updated combined dataset shape: (30556, 30, 99)
+2024-09-05 12:57:49 - Skipping child ID: 103 as it is in the excluded list.
+2024-09-05 12:57:50 - Combined Kinect dataset created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Combined_BigDataset.npy with shape (30556, 30, 99)
+
+2024-09-05 12:57:50 - ===== Summary =====
+2024-09-05 12:57:50 - Total number of files included: 71
+2024-09-05 12:57:50 - Child ID: 001, Data Shape: (388, 30, 99)
+2024-09-05 12:57:50 - Child ID: 002, Data Shape: (733, 30, 99)
+2024-09-05 12:57:50 - Child ID: 003, Data Shape: (348, 30, 99)
+2024-09-05 12:57:50 - Child ID: 004, Data Shape: (393, 30, 99)
+2024-09-05 12:57:50 - Child ID: 006, Data Shape: (316, 30, 99)
+2024-09-05 12:57:50 - Child ID: 007, Data Shape: (365, 30, 99)
+2024-09-05 12:57:50 - Child ID: 011, Data Shape: (424, 30, 99)
+2024-09-05 12:57:50 - Child ID: 012, Data Shape: (474, 30, 99)
+2024-09-05 12:57:50 - Child ID: 013, Data Shape: (363, 30, 99)
+2024-09-05 12:57:50 - Child ID: 014, Data Shape: (479, 30, 99)
+2024-09-05 12:57:50 - Child ID: 015, Data Shape: (526, 30, 99)
+2024-09-05 12:57:50 - Child ID: 017, Data Shape: (556, 30, 99)
+2024-09-05 12:57:50 - Child ID: 018, Data Shape: (608, 30, 99)
+2024-09-05 12:57:50 - Child ID: 019, Data Shape: (614, 30, 99)
+2024-09-05 12:57:50 - Child ID: 021, Data Shape: (613, 30, 99)
+2024-09-05 12:57:50 - Child ID: 022, Data Shape: (588, 30, 99)
+2024-09-05 12:57:50 - Child ID: 023, Data Shape: (626, 30, 99)
+2024-09-05 12:57:50 - Child ID: 024, Data Shape: (306, 30, 99)
+2024-09-05 12:57:50 - Child ID: 026, Data Shape: (313, 30, 99)
+2024-09-05 12:57:50 - Child ID: 027, Data Shape: (488, 30, 99)
+2024-09-05 12:57:50 - Child ID: 028, Data Shape: (416, 30, 99)
+2024-09-05 12:57:50 - Child ID: 029, Data Shape: (414, 30, 99)
+2024-09-05 12:57:50 - Child ID: 030, Data Shape: (430, 30, 99)
+2024-09-05 12:57:50 - Child ID: 031, Data Shape: (257, 30, 99)
+2024-09-05 12:57:50 - Child ID: 032, Data Shape: (245, 30, 99)
+2024-09-05 12:57:50 - Child ID: 033, Data Shape: (318, 30, 99)
+2024-09-05 12:57:50 - Child ID: 036, Data Shape: (363, 30, 99)
+2024-09-05 12:57:50 - Child ID: 037, Data Shape: (903, 30, 99)
+2024-09-05 12:57:50 - Child ID: 038, Data Shape: (557, 30, 99)
+2024-09-05 12:57:50 - Child ID: 039, Data Shape: (546, 30, 99)
+2024-09-05 12:57:50 - Child ID: 040, Data Shape: (488, 30, 99)
+2024-09-05 12:57:50 - Child ID: 041, Data Shape: (395, 30, 99)
+2024-09-05 12:57:50 - Child ID: 043, Data Shape: (491, 30, 99)
+2024-09-05 12:57:50 - Child ID: 044, Data Shape: (321, 30, 99)
+2024-09-05 12:57:50 - Child ID: 045, Data Shape: (401, 30, 99)
+2024-09-05 12:57:50 - Child ID: 047, Data Shape: (393, 30, 99)
+2024-09-05 12:57:50 - Child ID: 048, Data Shape: (446, 30, 99)
+2024-09-05 12:57:50 - Child ID: 051, Data Shape: (387, 30, 99)
+2024-09-05 12:57:50 - Child ID: 052, Data Shape: (361, 30, 99)
+2024-09-05 12:57:50 - Child ID: 053, Data Shape: (470, 30, 99)
+2024-09-05 12:57:50 - Child ID: 054, Data Shape: (282, 30, 99)
+2024-09-05 12:57:50 - Child ID: 058, Data Shape: (453, 30, 99)
+2024-09-05 12:57:50 - Child ID: 059, Data Shape: (429, 30, 99)
+2024-09-05 12:57:50 - Child ID: 060, Data Shape: (404, 30, 99)
+2024-09-05 12:57:50 - Child ID: 063, Data Shape: (471, 30, 99)
+2024-09-05 12:57:50 - Child ID: 065, Data Shape: (426, 30, 99)
+2024-09-05 12:57:50 - Child ID: 066, Data Shape: (444, 30, 99)
+2024-09-05 12:57:50 - Child ID: 068, Data Shape: (374, 30, 99)
+2024-09-05 12:57:50 - Child ID: 071, Data Shape: (433, 30, 99)
+2024-09-05 12:57:50 - Child ID: 072, Data Shape: (411, 30, 99)
+2024-09-05 12:57:50 - Child ID: 073, Data Shape: (498, 30, 99)
+2024-09-05 12:57:50 - Child ID: 074, Data Shape: (505, 30, 99)
+2024-09-05 12:57:50 - Child ID: 076, Data Shape: (476, 30, 99)
+2024-09-05 12:57:50 - Child ID: 077, Data Shape: (365, 30, 99)
+2024-09-05 12:57:50 - Child ID: 078, Data Shape: (365, 30, 99)
+2024-09-05 12:57:50 - Child ID: 079, Data Shape: (427, 30, 99)
+2024-09-05 12:57:50 - Child ID: 080, Data Shape: (383, 30, 99)
+2024-09-05 12:57:50 - Child ID: 081, Data Shape: (119, 30, 99)
+2024-09-05 12:57:50 - Child ID: 083, Data Shape: (373, 30, 99)
+2024-09-05 12:57:50 - Child ID: 084, Data Shape: (438, 30, 99)
+2024-09-05 12:57:50 - Child ID: 085, Data Shape: (426, 30, 99)
+2024-09-05 12:57:50 - Child ID: 087, Data Shape: (315, 30, 99)
+2024-09-05 12:57:50 - Child ID: 090, Data Shape: (426, 30, 99)
+2024-09-05 12:57:50 - Child ID: 092, Data Shape: (428, 30, 99)
+2024-09-05 12:57:50 - Child ID: 093, Data Shape: (540, 30, 99)
+2024-09-05 12:57:50 - Child ID: 095, Data Shape: (341, 30, 99)
+2024-09-05 12:57:50 - Child ID: 097, Data Shape: (521, 30, 99)
+2024-09-05 12:57:50 - Child ID: 098, Data Shape: (408, 30, 99)
+2024-09-05 12:57:50 - Child ID: 099, Data Shape: (382, 30, 99)
+2024-09-05 12:57:50 - Child ID: 101, Data Shape: (438, 30, 99)
+2024-09-05 12:57:50 - Child ID: 102, Data Shape: (132, 30, 99)
+2024-09-05 12:57:50 - Validation successful: The total number of rows in the combined dataset matches the sum of all individual files.
+2024-09-05 12:57:50 - ===== Excluded Samples =====
+2024-09-05 12:57:50 - Excluded child IDs: 005, 008, 009, 010, 016, 020, 025, 034, 035, 042, 046, 049, 050, 055, 057, 067, 075, 082, 086, 088, 091, 096, 100, 103
+2024-09-05 12:57:50 - Loaded binary classification data from C:\GitRepositories\Master_Thesis\FM_QualityClassification\FM_QualityClassification_Binary.csv
+2024-09-05 12:57:50 - Child ID: 001 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 002 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 003 - Assigned classification '0' for segments.
+2024-09-05 12:57:50 - Child ID: 004 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 006 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 007 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 011 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 012 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 013 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 014 - Assigned classification '0' for segments.
+2024-09-05 12:57:50 - Child ID: 015 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 017 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 018 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 019 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 021 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 022 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 023 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 024 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 026 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 027 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 028 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 029 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 030 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 031 - Assigned classification '0' for segments.
+2024-09-05 12:57:50 - Child ID: 032 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 033 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 036 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 037 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 038 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 039 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 040 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 041 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 043 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 044 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 045 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 047 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 048 - Assigned classification '0' for segments.
+2024-09-05 12:57:50 - Child ID: 051 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 052 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 053 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 054 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 058 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 059 - Assigned classification '0' for segments.
+2024-09-05 12:57:50 - Child ID: 060 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 063 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 065 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 066 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 068 - Assigned classification '0' for segments.
+2024-09-05 12:57:50 - Child ID: 071 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 072 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 073 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 074 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 076 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 077 - Assigned classification '0' for segments.
+2024-09-05 12:57:50 - Child ID: 078 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 079 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 080 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 081 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 083 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 084 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 085 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 087 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 090 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 092 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 093 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 095 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 097 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 098 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 099 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 101 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Child ID: 102 - Assigned classification '1' for segments.
+2024-09-05 12:57:50 - Classification file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_QualityClassification_Binary_BigData.csv with 30556 rows
+2024-09-05 12:57:50 - Segment information file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Segmented_Group_Info.csv with 30556 rows
+2024-09-05 12:57:50 - ===== Summary of FM- and FM+ Children =====
+2024-09-05 12:57:50 - Number of children classified as FM- (0): 7
+2024-09-05 12:57:50 - Number of children classified as FM+ (1): 64
+2024-09-10 07:57:35 - Starting creation of the combined Kinect dataset
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095029 - 001 - KinectDataFrames.npy with shape (388, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (388, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095035 - 002 - KinectDataFrames.npy with shape (733, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (1121, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095037 - 003 - KinectDataFrames.npy with shape (348, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (1469, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095039 - 004 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (1862, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095041 - 005 - KinectDataFrames.npy with shape (319, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (2181, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095042 - 006 - KinectDataFrames.npy with shape (316, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (2497, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095044 - 007 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (2862, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095046 - 008 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (3247, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095047 - 009 - KinectDataFrames.npy with shape (283, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (3530, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095052 - 010 - KinectDataFrames.npy with shape (602, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (4132, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095054 - 011 - KinectDataFrames.npy with shape (424, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (4556, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095057 - 012 - KinectDataFrames.npy with shape (474, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (5030, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095059 - 013 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (5393, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095102 - 014 - KinectDataFrames.npy with shape (479, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (5872, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095105 - 015 - KinectDataFrames.npy with shape (526, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (6398, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095107 - 016 - KinectDataFrames.npy with shape (403, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (6801, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095112 - 017 - KinectDataFrames.npy with shape (556, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (7357, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095116 - 018 - KinectDataFrames.npy with shape (608, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (7965, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095120 - 019 - KinectDataFrames.npy with shape (614, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (8579, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095122 - 020 - KinectDataFrames.npy with shape (366, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (8945, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095126 - 021 - KinectDataFrames.npy with shape (613, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (9558, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095130 - 022 - KinectDataFrames.npy with shape (588, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (10146, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095135 - 023 - KinectDataFrames.npy with shape (626, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (10772, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095136 - 024 - KinectDataFrames.npy with shape (306, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (11078, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095137 - 025 - KinectDataFrames.npy with shape (302, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (11380, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095138 - 026 - KinectDataFrames.npy with shape (313, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (11693, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095141 - 027 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-10 07:57:36 - Updated combined dataset shape: (12181, 30, 99)
+2024-09-10 07:57:36 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095143 - 028 - KinectDataFrames.npy with shape (416, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (12597, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095145 - 029 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (13011, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095148 - 030 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (13441, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095149 - 031 - KinectDataFrames.npy with shape (257, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (13698, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095150 - 032 - KinectDataFrames.npy with shape (245, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (13943, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095151 - 033 - KinectDataFrames.npy with shape (318, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (14261, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095153 - 034 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (14687, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095155 - 035 - KinectDataFrames.npy with shape (354, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (15041, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095156 - 036 - KinectDataFrames.npy with shape (363, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (15404, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095205 - 037 - KinectDataFrames.npy with shape (903, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (16307, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095209 - 038 - KinectDataFrames.npy with shape (557, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (16864, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095213 - 039 - KinectDataFrames.npy with shape (546, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (17410, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095216 - 040 - KinectDataFrames.npy with shape (488, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (17898, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095218 - 041 - KinectDataFrames.npy with shape (395, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (18293, 30, 99)
+2024-09-10 07:57:37 - Skipping child ID: 042 as it is in the excluded list.
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095223 - 043 - KinectDataFrames.npy with shape (491, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (18784, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095225 - 044 - KinectDataFrames.npy with shape (321, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (19105, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095227 - 045 - KinectDataFrames.npy with shape (401, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (19506, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095228 - 046 - KinectDataFrames.npy with shape (194, 30, 99)
+2024-09-10 07:57:37 - Updated combined dataset shape: (19700, 30, 99)
+2024-09-10 07:57:37 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095229 - 047 - KinectDataFrames.npy with shape (393, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (20093, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095232 - 048 - KinectDataFrames.npy with shape (446, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (20539, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095234 - 049 - KinectDataFrames.npy with shape (430, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (20969, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095237 - 050 - KinectDataFrames.npy with shape (465, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (21434, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095239 - 051 - KinectDataFrames.npy with shape (387, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (21821, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095240 - 052 - KinectDataFrames.npy with shape (361, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (22182, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095243 - 053 - KinectDataFrames.npy with shape (470, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (22652, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095244 - 054 - KinectDataFrames.npy with shape (282, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (22934, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095247 - 055 - KinectDataFrames.npy with shape (435, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (23369, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095249 - 057 - KinectDataFrames.npy with shape (405, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (23774, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095251 - 058 - KinectDataFrames.npy with shape (453, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (24227, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095254 - 059 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (24656, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095256 - 060 - KinectDataFrames.npy with shape (404, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (25060, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095259 - 063 - KinectDataFrames.npy with shape (471, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (25531, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095301 - 065 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-10 07:57:38 - Updated combined dataset shape: (25957, 30, 99)
+2024-09-10 07:57:38 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095304 - 066 - KinectDataFrames.npy with shape (444, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (26401, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095307 - 067 - KinectDataFrames.npy with shape (558, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (26959, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095309 - 068 - KinectDataFrames.npy with shape (374, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (27333, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095312 - 071 - KinectDataFrames.npy with shape (433, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (27766, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095314 - 072 - KinectDataFrames.npy with shape (411, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (28177, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095317 - 073 - KinectDataFrames.npy with shape (498, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (28675, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095320 - 074 - KinectDataFrames.npy with shape (505, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (29180, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095322 - 075 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (29618, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095325 - 076 - KinectDataFrames.npy with shape (476, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (30094, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095326 - 077 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (30459, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095328 - 078 - KinectDataFrames.npy with shape (365, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (30824, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095330 - 079 - KinectDataFrames.npy with shape (427, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (31251, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 080 - KinectDataFrames.npy with shape (383, 30, 99)
+2024-09-10 07:57:39 - Updated combined dataset shape: (31634, 30, 99)
+2024-09-10 07:57:39 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095333 - 081 - KinectDataFrames.npy with shape (119, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (31753, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095335 - 082 - KinectDataFrames.npy with shape (414, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (32167, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095337 - 083 - KinectDataFrames.npy with shape (373, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (32540, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095340 - 084 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (32978, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095342 - 085 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (33404, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095343 - 086 - KinectDataFrames.npy with shape (121, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (33525, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095344 - 087 - KinectDataFrames.npy with shape (315, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (33840, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095346 - 088 - KinectDataFrames.npy with shape (385, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (34225, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095348 - 090 - KinectDataFrames.npy with shape (426, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (34651, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095351 - 091 - KinectDataFrames.npy with shape (429, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (35080, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095353 - 092 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (35508, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095357 - 093 - KinectDataFrames.npy with shape (540, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (36048, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095359 - 095 - KinectDataFrames.npy with shape (341, 30, 99)
+2024-09-10 07:57:40 - Updated combined dataset shape: (36389, 30, 99)
+2024-09-10 07:57:40 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095401 - 096 - KinectDataFrames.npy with shape (394, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (36783, 30, 99)
+2024-09-10 07:57:41 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095404 - 097 - KinectDataFrames.npy with shape (521, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (37304, 30, 99)
+2024-09-10 07:57:41 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095406 - 098 - KinectDataFrames.npy with shape (408, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (37712, 30, 99)
+2024-09-10 07:57:41 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095408 - 099 - KinectDataFrames.npy with shape (382, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (38094, 30, 99)
+2024-09-10 07:57:41 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095411 - 100 - KinectDataFrames.npy with shape (428, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (38522, 30, 99)
+2024-09-10 07:57:41 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095413 - 101 - KinectDataFrames.npy with shape (438, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (38960, 30, 99)
+2024-09-10 07:57:41 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095414 - 102 - KinectDataFrames.npy with shape (132, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (39092, 30, 99)
+2024-09-10 07:57:41 - Loaded data from C:\GitRepositories\Master_Thesis\Data\synchronised_imu_kinect3d_data_frames\20240801_095415 - 103 - KinectDataFrames.npy with shape (309, 30, 99)
+2024-09-10 07:57:41 - Updated combined dataset shape: (39401, 30, 99)
+2024-09-10 07:57:42 - Combined Kinect dataset created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Combined_BigDataset.npy with shape (39401, 30, 99)
+
+2024-09-10 07:57:42 - ===== Summary =====
+2024-09-10 07:57:42 - Total number of files included: 94
+2024-09-10 07:57:42 - Child ID: 001, Data Shape: (388, 30, 99)
+2024-09-10 07:57:42 - Child ID: 002, Data Shape: (733, 30, 99)
+2024-09-10 07:57:42 - Child ID: 003, Data Shape: (348, 30, 99)
+2024-09-10 07:57:42 - Child ID: 004, Data Shape: (393, 30, 99)
+2024-09-10 07:57:42 - Child ID: 005, Data Shape: (319, 30, 99)
+2024-09-10 07:57:42 - Child ID: 006, Data Shape: (316, 30, 99)
+2024-09-10 07:57:42 - Child ID: 007, Data Shape: (365, 30, 99)
+2024-09-10 07:57:42 - Child ID: 008, Data Shape: (385, 30, 99)
+2024-09-10 07:57:42 - Child ID: 009, Data Shape: (283, 30, 99)
+2024-09-10 07:57:42 - Child ID: 010, Data Shape: (602, 30, 99)
+2024-09-10 07:57:42 - Child ID: 011, Data Shape: (424, 30, 99)
+2024-09-10 07:57:42 - Child ID: 012, Data Shape: (474, 30, 99)
+2024-09-10 07:57:42 - Child ID: 013, Data Shape: (363, 30, 99)
+2024-09-10 07:57:42 - Child ID: 014, Data Shape: (479, 30, 99)
+2024-09-10 07:57:42 - Child ID: 015, Data Shape: (526, 30, 99)
+2024-09-10 07:57:42 - Child ID: 016, Data Shape: (403, 30, 99)
+2024-09-10 07:57:42 - Child ID: 017, Data Shape: (556, 30, 99)
+2024-09-10 07:57:42 - Child ID: 018, Data Shape: (608, 30, 99)
+2024-09-10 07:57:42 - Child ID: 019, Data Shape: (614, 30, 99)
+2024-09-10 07:57:42 - Child ID: 020, Data Shape: (366, 30, 99)
+2024-09-10 07:57:42 - Child ID: 021, Data Shape: (613, 30, 99)
+2024-09-10 07:57:42 - Child ID: 022, Data Shape: (588, 30, 99)
+2024-09-10 07:57:42 - Child ID: 023, Data Shape: (626, 30, 99)
+2024-09-10 07:57:42 - Child ID: 024, Data Shape: (306, 30, 99)
+2024-09-10 07:57:42 - Child ID: 025, Data Shape: (302, 30, 99)
+2024-09-10 07:57:42 - Child ID: 026, Data Shape: (313, 30, 99)
+2024-09-10 07:57:42 - Child ID: 027, Data Shape: (488, 30, 99)
+2024-09-10 07:57:42 - Child ID: 028, Data Shape: (416, 30, 99)
+2024-09-10 07:57:42 - Child ID: 029, Data Shape: (414, 30, 99)
+2024-09-10 07:57:42 - Child ID: 030, Data Shape: (430, 30, 99)
+2024-09-10 07:57:42 - Child ID: 031, Data Shape: (257, 30, 99)
+2024-09-10 07:57:42 - Child ID: 032, Data Shape: (245, 30, 99)
+2024-09-10 07:57:42 - Child ID: 033, Data Shape: (318, 30, 99)
+2024-09-10 07:57:42 - Child ID: 034, Data Shape: (426, 30, 99)
+2024-09-10 07:57:42 - Child ID: 035, Data Shape: (354, 30, 99)
+2024-09-10 07:57:42 - Child ID: 036, Data Shape: (363, 30, 99)
+2024-09-10 07:57:42 - Child ID: 037, Data Shape: (903, 30, 99)
+2024-09-10 07:57:42 - Child ID: 038, Data Shape: (557, 30, 99)
+2024-09-10 07:57:42 - Child ID: 039, Data Shape: (546, 30, 99)
+2024-09-10 07:57:42 - Child ID: 040, Data Shape: (488, 30, 99)
+2024-09-10 07:57:42 - Child ID: 041, Data Shape: (395, 30, 99)
+2024-09-10 07:57:42 - Child ID: 043, Data Shape: (491, 30, 99)
+2024-09-10 07:57:42 - Child ID: 044, Data Shape: (321, 30, 99)
+2024-09-10 07:57:42 - Child ID: 045, Data Shape: (401, 30, 99)
+2024-09-10 07:57:42 - Child ID: 046, Data Shape: (194, 30, 99)
+2024-09-10 07:57:42 - Child ID: 047, Data Shape: (393, 30, 99)
+2024-09-10 07:57:42 - Child ID: 048, Data Shape: (446, 30, 99)
+2024-09-10 07:57:42 - Child ID: 049, Data Shape: (430, 30, 99)
+2024-09-10 07:57:42 - Child ID: 050, Data Shape: (465, 30, 99)
+2024-09-10 07:57:42 - Child ID: 051, Data Shape: (387, 30, 99)
+2024-09-10 07:57:42 - Child ID: 052, Data Shape: (361, 30, 99)
+2024-09-10 07:57:42 - Child ID: 053, Data Shape: (470, 30, 99)
+2024-09-10 07:57:42 - Child ID: 054, Data Shape: (282, 30, 99)
+2024-09-10 07:57:42 - Child ID: 055, Data Shape: (435, 30, 99)
+2024-09-10 07:57:42 - Child ID: 057, Data Shape: (405, 30, 99)
+2024-09-10 07:57:42 - Child ID: 058, Data Shape: (453, 30, 99)
+2024-09-10 07:57:42 - Child ID: 059, Data Shape: (429, 30, 99)
+2024-09-10 07:57:42 - Child ID: 060, Data Shape: (404, 30, 99)
+2024-09-10 07:57:42 - Child ID: 063, Data Shape: (471, 30, 99)
+2024-09-10 07:57:42 - Child ID: 065, Data Shape: (426, 30, 99)
+2024-09-10 07:57:42 - Child ID: 066, Data Shape: (444, 30, 99)
+2024-09-10 07:57:42 - Child ID: 067, Data Shape: (558, 30, 99)
+2024-09-10 07:57:42 - Child ID: 068, Data Shape: (374, 30, 99)
+2024-09-10 07:57:42 - Child ID: 071, Data Shape: (433, 30, 99)
+2024-09-10 07:57:42 - Child ID: 072, Data Shape: (411, 30, 99)
+2024-09-10 07:57:42 - Child ID: 073, Data Shape: (498, 30, 99)
+2024-09-10 07:57:42 - Child ID: 074, Data Shape: (505, 30, 99)
+2024-09-10 07:57:42 - Child ID: 075, Data Shape: (438, 30, 99)
+2024-09-10 07:57:42 - Child ID: 076, Data Shape: (476, 30, 99)
+2024-09-10 07:57:42 - Child ID: 077, Data Shape: (365, 30, 99)
+2024-09-10 07:57:42 - Child ID: 078, Data Shape: (365, 30, 99)
+2024-09-10 07:57:42 - Child ID: 079, Data Shape: (427, 30, 99)
+2024-09-10 07:57:42 - Child ID: 080, Data Shape: (383, 30, 99)
+2024-09-10 07:57:42 - Child ID: 081, Data Shape: (119, 30, 99)
+2024-09-10 07:57:42 - Child ID: 082, Data Shape: (414, 30, 99)
+2024-09-10 07:57:42 - Child ID: 083, Data Shape: (373, 30, 99)
+2024-09-10 07:57:42 - Child ID: 084, Data Shape: (438, 30, 99)
+2024-09-10 07:57:42 - Child ID: 085, Data Shape: (426, 30, 99)
+2024-09-10 07:57:42 - Child ID: 086, Data Shape: (121, 30, 99)
+2024-09-10 07:57:42 - Child ID: 087, Data Shape: (315, 30, 99)
+2024-09-10 07:57:42 - Child ID: 088, Data Shape: (385, 30, 99)
+2024-09-10 07:57:42 - Child ID: 090, Data Shape: (426, 30, 99)
+2024-09-10 07:57:42 - Child ID: 091, Data Shape: (429, 30, 99)
+2024-09-10 07:57:42 - Child ID: 092, Data Shape: (428, 30, 99)
+2024-09-10 07:57:42 - Child ID: 093, Data Shape: (540, 30, 99)
+2024-09-10 07:57:42 - Child ID: 095, Data Shape: (341, 30, 99)
+2024-09-10 07:57:42 - Child ID: 096, Data Shape: (394, 30, 99)
+2024-09-10 07:57:42 - Child ID: 097, Data Shape: (521, 30, 99)
+2024-09-10 07:57:42 - Child ID: 098, Data Shape: (408, 30, 99)
+2024-09-10 07:57:42 - Child ID: 099, Data Shape: (382, 30, 99)
+2024-09-10 07:57:42 - Child ID: 100, Data Shape: (428, 30, 99)
+2024-09-10 07:57:42 - Child ID: 101, Data Shape: (438, 30, 99)
+2024-09-10 07:57:42 - Child ID: 102, Data Shape: (132, 30, 99)
+2024-09-10 07:57:42 - Child ID: 103, Data Shape: (309, 30, 99)
+2024-09-10 07:57:42 - Validation successful: The total number of rows in the combined dataset matches the sum of all individual files.
+2024-09-10 07:57:42 - ===== Excluded Samples =====
+2024-09-10 07:57:42 - Excluded child IDs: 042
+2024-09-10 07:57:42 - Loaded binary classification data from C:\GitRepositories\Master_Thesis\FM_QualityClassification\FM_QualityClassification_Binary.csv
+2024-09-10 07:57:42 - Child ID: 001 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 002 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 003 - Assigned classification '0' for segments.
+2024-09-10 07:57:42 - Child ID: 004 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 005 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 006 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 007 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 008 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 009 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 010 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 011 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 012 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 013 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 014 - Assigned classification '0' for segments.
+2024-09-10 07:57:42 - Child ID: 015 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 016 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 017 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 018 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 019 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 020 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 021 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 022 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 023 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 024 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 025 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 026 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 027 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 028 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 029 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 030 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 031 - Assigned classification '0' for segments.
+2024-09-10 07:57:42 - Child ID: 032 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 033 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 034 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 035 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 036 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 037 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 038 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 039 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 040 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 041 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 043 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 044 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 045 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 046 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 047 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 048 - Assigned classification '0' for segments.
+2024-09-10 07:57:42 - Child ID: 049 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 050 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 051 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 052 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 053 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 054 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 055 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 057 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 058 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 059 - Assigned classification '0' for segments.
+2024-09-10 07:57:42 - Child ID: 060 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 063 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 065 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 066 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 067 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 068 - Assigned classification '0' for segments.
+2024-09-10 07:57:42 - Child ID: 071 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 072 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 073 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 074 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 075 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 076 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 077 - Assigned classification '0' for segments.
+2024-09-10 07:57:42 - Child ID: 078 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 079 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 080 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 081 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 082 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 083 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 084 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 085 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 086 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 087 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 088 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 090 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 091 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 092 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 093 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 095 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 096 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 097 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 098 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 099 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 100 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 101 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 102 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Child ID: 103 - Assigned classification '1' for segments.
+2024-09-10 07:57:42 - Classification file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_QualityClassification_Binary_BigData.csv with 39401 rows
+2024-09-10 07:57:42 - Segment information file created and saved to C:\GitRepositories\Master_Thesis\Data_Kinect_Combined\Kinect_Segmented_Group_Info.csv with 39401 rows
+2024-09-10 07:57:42 - ===== Summary of FM- and FM+ Children =====
+2024-09-10 07:57:42 - Number of children classified as FM- (0): 7
+2024-09-10 07:57:42 - Number of children classified as FM+ (1): 87
