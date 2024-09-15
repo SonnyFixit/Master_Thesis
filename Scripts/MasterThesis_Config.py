@@ -48,3 +48,18 @@ if USE_NEGATIVE_CLASSIFICATION:
     NN_CLASSIFICATION_FILE = NEW_BINARY_CLASSIFICATION_FILE_CSV
 else:
     NN_CLASSIFICATION_FILE = BINARY_CLASSIFICATION_FILE_CSV
+    
+# Extend configuration file with new paths for augmentation
+# Base path to the repository
+BASE_PATH = r'C:\GitRepositories\Master_Thesis'
+
+# New folder for augmented data
+AUGMENTED_DATA_FOLDER = os.path.join(BASE_PATH, 'Data_IMU_Augmented')
+
+# New log file for the augmentation process
+AUGMENTATION_LOG_FILE = os.path.join(LOGS_FOLDER, 'IMU_Augmentation_Log.txt')
+
+# Ensure that the new folder exists
+if not os.path.exists(AUGMENTED_DATA_FOLDER):
+    os.makedirs(AUGMENTED_DATA_FOLDER)
+

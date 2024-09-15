@@ -20,7 +20,7 @@ NEW_BINARY_CLASSIFICATION_FILE_TXT = os.path.join(CLASSIFICATION_FOLDER, 'FM_Qua
 NEW_BINARY_CLASSIFICATION_FILE_CSV = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_Negative.csv')
 
 def create_classification_file(excel_file_path, binary=True, variant='standard'):
-    """Create classification file from Excel data with detailed logging."""
+    """Create classification file from Excel data with detailed logging and duplicate ID check."""
     
     # Ensure the classification folder exists
     if not os.path.exists(CLASSIFICATION_FOLDER):
@@ -71,6 +71,10 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
                     continue  # Skip unclassified values
 
         if fm_quality in ["FM-", "FM+", "FM++"]:
+            # Check for duplicate IDs
+            if base_id in classification_dict:
+                print(f"Duplicate ID found: {base_id} at index {i}, skipping this entry.")
+                continue  # Skip duplicates
             classification_dict[base_id] = fm_quality
             # Map classification to numeric value for machine learning
             numeric_class = 0 if fm_quality == "FM-" else 1 if fm_quality == "FM+" else 2
@@ -87,6 +91,12 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
 
     # Save the CSV file for machine learning
     classification_df = pd.DataFrame(classification_list, columns=['ID', 'FM Quality Numeric'])
+    
+    # Check for duplicates in the DataFrame before saving
+    if classification_df['ID'].duplicated().any():
+        print("Warning: Duplicate IDs found in the CSV file, removing duplicates before saving.")
+        classification_df = classification_df.drop_duplicates(subset='ID')
+    
     classification_df.to_csv(output_file_path_csv, index=False)
     print(f"Classification CSV file created: {output_file_path_csv}")
 

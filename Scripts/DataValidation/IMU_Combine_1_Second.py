@@ -22,7 +22,7 @@ CLASSIFICATION_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClas
 SEGMENT_INFO_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'IMU_Segmented_Group_Info.csv')
 
 # IDs to be excluded
-EXCLUDED_IDS = ["042", "100", "096", "091", "086", "082", "075", "050", "035", "009", "016", "020", "034", "103", "088", "067", "055", "057", "049", "046", "005", "008","010", "025"]
+EXCLUDED_IDS = ["042"]
 
 # Function to log messages
 def log_message(message):
