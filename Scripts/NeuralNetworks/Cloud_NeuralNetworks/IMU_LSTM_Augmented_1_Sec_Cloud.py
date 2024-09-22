@@ -83,25 +83,42 @@ def create_training_validation_sets(data_file, classification_file, segment_info
     return fold_sets
 
 
-# Funkcja do tworzenia zbiorów treningowych i walidacyjnych z dodatkowymi logami
+# Funkcja do tworzenia zbiorów treningowych i walidacyjnych z logowaniem dodatkowych informacji
 def create_training_validation_sets_with_augmentation(data_file, classification_file, segment_info_file, log_file_path):
     log_message("Loading dataset for training/validation set creation with augmentation...", log_file_path)
+    
     data = np.load(data_file)
     max_index = data.shape[0]
+    
+    # Read classification and segment info files
     df_classification = pd.read_csv(classification_file, index_col=0)
     df_segment_info = pd.read_csv(segment_info_file)
 
-    total_children = df_segment_info['Child ID'].nunique()
-    total_samples = data.shape[0]
-    log_message(f"Total number of children in the dataset: {total_children}", log_file_path)
-    log_message(f"Total number of 1-second samples in the dataset: {total_samples}", log_file_path)
+    # Strip spaces from columns just in case
+    df_segment_info.columns = df_segment_info.columns.str.strip()
 
+    # Handle potential 'Segment ID' column issues
+    if 'Segment ID' in df_segment_info.columns:
+        df_segment_info.rename(columns={'Segment ID': 'Segment_ID'}, inplace=True)
+    else:
+        log_message("Error: 'Segment ID' column not found in segment info file.", log_file_path)
+        return
+
+    # Log general statistics about the dataset
+    num_fm_plus = df_segment_info[df_segment_info['Classification'] == 1]['Child ID'].nunique()
+    num_fm_minus = df_segment_info[df_segment_info['Classification'] == 0]['Child ID'].nunique()
+    num_augmented_samples = df_classification[df_classification['Augmented'] == 1].shape[0]
+
+    log_message(f"Total number of FM+ children: {num_fm_plus}", log_file_path)
+    log_message(f"Total number of FM- children: {num_fm_minus}", log_file_path)
+    log_message(f"Total number of augmented samples: {num_augmented_samples}", log_file_path)
+
+    # Proceed with creating the training and validation sets
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
     unique_ids = df_segment_info['Child ID'].unique()
     labels = df_segment_info.groupby('Child ID')['Classification'].first().values
 
     fold_sets = []
-
     fold = 1
     for train_idx, test_idx in skf.split(unique_ids, labels):
         log_message(f"\n--- Creating training and validation sets for fold {fold} ---", log_file_path)
@@ -109,56 +126,50 @@ def create_training_validation_sets_with_augmentation(data_file, classification_
         train_ids = unique_ids[train_idx]
         test_ids = unique_ids[test_idx]
 
-        # Wykluczenie dzieci augmentowanych z walidacji (Child ID >= 104)
+        # Exclude augmented children from the validation set
         test_ids = [child_id for child_id in test_ids if child_id < 104]
 
         log_message(f"Number of children in training set for fold {fold}: {len(train_ids)}", log_file_path)
-        log_message(f"Number of children in validation set for fold {fold} (bez augmented): {len(test_ids)}", log_file_path)
+        log_message(f"Training IDs for fold {fold}: {list(train_ids)}", log_file_path)  # Log training IDs
+        
+        log_message(f"Number of children in validation set for fold {fold} (without augmented): {len(test_ids)}", log_file_path)
+        log_message(f"Validation IDs for fold {fold}: {list(test_ids)}", log_file_path)  # Log validation IDs
 
         train_segments = []
         train_labels = []
         val_segments = []
         val_labels = []
 
-        # Tworzenie zbiorów treningowych
         for child_id in train_ids:
             child_data = df_segment_info[df_segment_info['Child ID'] == child_id]
-            valid_segments = child_data['Segment ID'].values - 1  # Segmenty są indeksowane od 1, więc odejmujemy 1
+            valid_segments = child_data['Segment_ID'].values - 1  
             valid_segments = [seg for seg in valid_segments if 0 <= seg < max_index and seg in df_classification.index]
 
             if not valid_segments:
                 log_message(f"No valid segments found for Child ID {child_id}. Skipping...", log_file_path)
                 continue
 
-            # Rozdzielanie danych augmentowanych i rzeczywistych
             augmented_segments = df_classification.loc[valid_segments, 'Augmented'] == 1
             real_segments = df_classification.loc[valid_segments, 'Augmented'] == 0
 
-            # Próbki augmentowane tylko do treningu
             train_segments.extend(df_classification.loc[valid_segments][augmented_segments].index.tolist())
             train_labels.extend(df_classification.loc[valid_segments][augmented_segments]['Classification'].values)
 
-            # Próbki rzeczywiste do treningu i walidacji
             train_segments.extend(df_classification.loc[valid_segments][real_segments].index.tolist())
             train_labels.extend(df_classification.loc[valid_segments][real_segments]['Classification'].values)
 
-        # Tworzenie zbiorów walidacyjnych tylko z rzeczywistymi danymi
         for child_id in test_ids:
             child_data = df_segment_info[df_segment_info['Child ID'] == child_id]
-            valid_segments = child_data['Segment ID'].values - 1  # Segmenty są indeksowane od 1, więc odejmujemy 1
+            valid_segments = child_data['Segment_ID'].values - 1  
             valid_segments = [seg for seg in valid_segments if 0 <= seg < max_index and seg in df_classification.index]
 
             if not valid_segments:
                 log_message(f"No valid segments found for Child ID {child_id}. Skipping...", log_file_path)
                 continue
 
-            # Walidacja tylko na rzeczywistych danych
             real_segments = df_classification.loc[valid_segments, 'Augmented'] == 0
             val_segments.extend(df_classification.loc[valid_segments][real_segments].index.tolist())
             val_labels.extend(df_classification.loc[valid_segments][real_segments]['Classification'].values)
-
-        log_message(f"Number of samples in training set for fold {fold}: {len(train_segments)}", log_file_path)
-        log_message(f"Number of samples in validation set for fold {fold}: {len(val_segments)}", log_file_path)
 
         fold_sets.append((train_segments, train_labels, val_segments, val_labels))
         fold += 1
@@ -234,7 +245,7 @@ def train_lstm_on_bigdata(data_file, classification_file, segment_info_file, log
         optimizer = optim.AdamW(model.parameters(), lr=0.0005, weight_decay=1e-4)
         scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2, verbose=True)
 
-        num_epochs = 15  # Zmniejszona liczba epok do 10
+        num_epochs = 20  # Liczba epok
         for epoch in range(num_epochs):
             model.train()
             running_loss = 0.0
@@ -310,12 +321,11 @@ def train_lstm_on_bigdata(data_file, classification_file, segment_info_file, log
     log_message("\n" + "=" * 50, log_file_path)
     log_message(f"Overall Accuracy: {np.mean(overall_accuracies):.4f}, Precision: {np.mean(overall_precisions):.4f}, Recall: {np.mean(overall_recalls):.4f}, F1 Score: {np.mean(overall_f1_scores):.4f}", log_file_path)
 
-
 if __name__ == "__main__":
     # Ścieżki do plików na Google Drive
     data_file = "/content/drive/My Drive/IMU_Combine_1_Second_Augmented_Dataset.npy"
     classification_file = "/content/drive/My Drive/FM_QualityClassification_Binary_BigData_Augmented.csv"
-    segment_info_file = "/content/drive/My Drive/IMU_Segmented_Group_Info_Augmented_Row.csv"
+    segment_info_file = "/content/drive/My Drive/IMU_Segmented_Group_Info_Augmented.csv"
     log_file_path = "/content/drive/My Drive/LSTM_BigData_Augmented_Log.txt"
 
     train_lstm_on_bigdata(data_file, classification_file, segment_info_file, log_file_path)
