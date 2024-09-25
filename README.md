@@ -4,11 +4,11 @@ Techniques for Early Detection of Neurological and Developmental Disorders**
 ### Author: 
 **Maciej Baranowski**
 
-### Supervisor: 
-**[Your Supervisor's Name]**
+### Written under the supervision of: 
+**prof. dr hab. inż Marcin Grzegorzek**
 
-### Reviewer: 
-**[Your Reviewer's Name]**
+### With additional help and supervision from:
+**Dr.-Ing. Frédérica Li**
 
 ### Institution: 
 **University of Economics in Katowice**
