@@ -16,12 +16,12 @@ Techniques for Early Detection of Neurological and Developmental Disorders**
 ---
 
 ## Overview
-This repository contains the code and resources developed for my Master's thesis titled **"[Your Thesis Title]"**. The thesis focuses on **[briefly describe the main objective of your thesis, such as "the use of machine learning models for detecting neurological abnormalities in infants based on IMU and Kinect data."]**
+This repository contains the code and resources developed for my Master's thesis titled **Analysis of Infants' General Movements Using Machine Learning Techniques for Early Detection of Neurological and Developmental Disorders**.
 Please note that the data used in the thesis is not directly stored in the repository due to its size and value. For access to the data, it is recommended to contact the author directly. The dataset used in this study was collected as part of the Bundesministerium für Bildung und Forschung (BMBF) project ScreenFM (grant number: 13GW0444). During the data collection process, all legal requirements were strictly adhered to, including obtaining informed consent from the parents of the infants. The data collection and usage were carried out with the full agreement of all involved parties, ensuring that ethical standards were maintained throughout the project.
 
 The repository includes the following:
 - **Data preprocessing scripts**: Scripts for handling raw data and preparing it for analysis.
-- **Machine learning models**: Implementation of the models used in the thesis, including [list the models you used, e.g., LSTM, CNN, and hybrid LSTM-CNN models].
+- **Machine learning models**: Implementation of the models used in the thesis, including LSTM, CNN and hybrid LSTM-CNN models.
 - **Evaluation scripts**: Scripts to evaluate the models' performance using cross-validation and other methods.
 - **Documentation and README**: Instructions on how to set up and run the code.
 
