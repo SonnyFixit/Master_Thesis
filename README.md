@@ -1,7 +1,8 @@
-# Master’s Thesis: **[Your Thesis Title]**
+# Master’s Thesis: **Analysis of Infants' General Movements Using Machine Learning
+Techniques for Early Detection of Neurological and Developmental Disorders**
 
 ### Author: 
-**[Your Name]**
+**Maciej Baranowski**
 
 ### Supervisor: 
 **[Your Supervisor's Name]**
@@ -10,12 +11,13 @@
 **[Your Reviewer's Name]**
 
 ### Institution: 
-**[Your University Name]**
+**University of Economics in Katowice**
 
 ---
 
 ## Overview
 This repository contains the code and resources developed for my Master's thesis titled **"[Your Thesis Title]"**. The thesis focuses on **[briefly describe the main objective of your thesis, such as "the use of machine learning models for detecting neurological abnormalities in infants based on IMU and Kinect data."]**
+Please note that the data used in the thesis is not directly stored in the repository due to its size and value. For access to the data, it is recommended to contact the author directly. The dataset used in this study was collected as part of the Bundesministerium für Bildung und Forschung (BMBF) project ScreenFM (grant number: 13GW0444). During the data collection process, all legal requirements were strictly adhered to, including obtaining informed consent from the parents of the infants. The data collection and usage were carried out with the full agreement of all involved parties, ensuring that ethical standards were maintained throughout the project.
 
 The repository includes the following:
 - **Data preprocessing scripts**: Scripts for handling raw data and preparing it for analysis.
