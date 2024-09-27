@@ -3,8 +3,33 @@ import sys
 import pandas as pd
 from datetime import datetime
 
+"""
+IMU Data Classification Script for Master Thesis
+
+This script processes FM (Functional Movement) quality data from an Excel file and creates classification files 
+for binary and multi-class models. It includes functionality for logging, duplicate checking, and creating files 
+for different classification variants.
+
+Key Features:
+1. **Classification File Creation**: 
+   - Generates classification files (TXT and CSV) for binary and three-class FM classification.
+   - Handles two binary classification variants: 
+     - **Standard Binary**: FM+ (positive) and FM- (negative) based on FM quality.
+     - **New Binary (FM- includes FM+)**: Considers FM- to include both FM- and FM+ classes.
+   - Removes duplicates to ensure each subject ID appears once in the classification.
+
+2. **Logging**: 
+   - Logs the number of samples for each class (FM-, FM+, FM++) in different classification variants.
+   - Logs selected columns from the Excel file, such as Subject ID, Record Length, and FM Quality.
+
+3. **Configurable Paths**: 
+   - File paths and folder locations are managed via an external configuration file `MasterThesis_Config.py`.
+"""
+
 # Add configuration path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Import paths from configuration file
 from MasterThesis_Config import (
     EXCEL_FILE_PATH, 
     BINARY_CLASSIFICATION_FILE_TXT, 
@@ -15,18 +40,28 @@ from MasterThesis_Config import (
     CLASSIFICATION_LOG_FILE
 )
 
-# Additional paths for the new binary classification variant
+# Paths for the new binary classification variant
 NEW_BINARY_CLASSIFICATION_FILE_TXT = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_Negative.txt')
 NEW_BINARY_CLASSIFICATION_FILE_CSV = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_Negative.csv')
 
 def create_classification_file(excel_file_path, binary=True, variant='standard'):
-    """Create classification file from Excel data with detailed logging and duplicate ID check."""
-    
+    """
+    Create classification file from Excel data with logging and duplicate ID checks.
+
+    Parameters:
+    - excel_file_path: Path to the Excel file containing FM quality data.
+    - binary: Boolean indicating if binary classification is used. If False, three-class classification is created.
+    - variant: 'standard' for regular binary classification, 'negative' for binary where FM- includes FM+.
+
+    The function processes each row in the Excel file, classifies the data, and generates both TXT and CSV files.
+    """
+
     # Ensure the classification folder exists
     if not os.path.exists(CLASSIFICATION_FOLDER):
         os.makedirs(CLASSIFICATION_FOLDER)
         print(f"Created classification folder: {CLASSIFICATION_FOLDER}")
 
+    # Set output paths based on the classification type
     if binary:
         if variant == 'standard':
             output_file_path_txt = BINARY_CLASSIFICATION_FILE_TXT
@@ -38,6 +73,7 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
         output_file_path_txt = THREE_CLASS_CLASSIFICATION_FILE_TXT
         output_file_path_csv = THREE_CLASS_CLASSIFICATION_FILE_CSV
 
+    # Read data from the Excel file
     df = pd.read_excel(excel_file_path, usecols=[0, 10])
     df.iloc[:, 1] = df.iloc[:, 1].astype(str).str.strip().replace({r'\*': ''}, regex=True)
 
@@ -48,7 +84,7 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
         base_id = ''.join(filter(str.isdigit, str(row.iloc[0]).strip()))
         fm_quality = str(row.iloc[1]).strip()
         
-        # Log the original values for investigation
+        # Log the original values for analysis
         print(f"Processing index {i}: ID={base_id}, FM Quality={fm_quality}")
 
         # Skip empty or questionable classifications
@@ -56,12 +92,11 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
             print(f"Skipping index {i} due to empty or questionable FM Quality")
             continue
 
+        # Classification logic based on binary or three-class classification
         if binary:
             if variant == 'standard':
-                # Standard binary classification
                 fm_quality = "FM+" if "FM+" in fm_quality or "FM++" in fm_quality else "FM-" if "FM-" in fm_quality else 'Unknown'
             elif variant == 'negative':
-                # New binary classification (FM- includes FM+)
                 if fm_quality in ["FM-", "FM-/FM-", "FM+"]:
                     fm_quality = "FM-"
                 elif fm_quality in ["FM++", "FM+/FM++", "FM++/FM++"]:
@@ -70,6 +105,7 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
                     print(f"Skipping index {i} as FM Quality does not fit binary negative criteria")
                     continue  # Skip unclassified values
 
+        # Only classify known categories
         if fm_quality in ["FM-", "FM+", "FM++"]:
             # Check for duplicate IDs
             if base_id in classification_dict:
@@ -83,15 +119,15 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
         else:
             print(f"Skipping index {i} as FM Quality is {fm_quality}")
 
-    # Save the text file
+    # Save the classification as a text file
     with open(output_file_path_txt, 'w') as file:
         for child_id, fm_quality in classification_dict.items():
             file.write(f"ID: {child_id}, FM Quality: {fm_quality}\n")
     print(f"Classification file created: {output_file_path_txt}")
 
-    # Save the CSV file for machine learning
+    # Save the classification as a CSV file for machine learning
     classification_df = pd.DataFrame(classification_list, columns=['ID', 'FM Quality Numeric'])
-    
+
     # Check for duplicates in the DataFrame before saving
     if classification_df['ID'].duplicated().any():
         print("Warning: Duplicate IDs found in the CSV file, removing duplicates before saving.")
@@ -101,7 +137,10 @@ def create_classification_file(excel_file_path, binary=True, variant='standard')
     print(f"Classification CSV file created: {output_file_path_csv}")
 
 def log_classification_counts():
-    """Log the classification counts to a log file based on created CSV files."""
+    """
+    Log the classification counts from the generated classification files (binary and three-class).
+    This function calculates the distribution of FM-, FM+, and FM++ classes and logs them to a file.
+    """
     counts_binary = {'FM-': 0, 'FM+': 0, 'Unknown': 0}
     counts_three_class = {'FM-': 0, 'FM+': 0, 'FM++': 0, 'Unknown': 0}
     counts_negative_binary = {'FM-': 0, 'FM+': 0, 'Unknown': 0}
@@ -141,7 +180,7 @@ def log_classification_counts():
         else:
             counts_negative_binary['Unknown'] += 1
 
-    # Log the classification counts
+    # Log classification counts
     log_entry = f"Classification Log - Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
     log_entry += "-" * 50 + "\n"
     log_entry += "Binary Classification Counts (Standard):\n"
@@ -166,32 +205,37 @@ def log_classification_counts():
     print(f"Classification log updated: {CLASSIFICATION_LOG_FILE}")
 
 def log_excel_columns():
-    """Log selected columns (Subject ID, IMU/iPhone record length (in seconds), FM quality) from the Excel file to the classification log."""
-    # Read the Excel file with actual column names
+    """
+    Log selected columns from the Excel file such as Subject ID, Record Length, and FM Quality.
+    This logs additional information for each subject to the classification log.
+    """
     df = pd.read_excel(EXCEL_FILE_PATH, usecols=["Subject ID", "IMU/iPhone record length (in seconds)", "FM quality"])
-    
+
     log_header = f"Excel Columns Log - Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
     log_header += "-" * 50 + "\n"
-    log_header += f"{'Subject ID':<20} {'Record Length (s)':<40} {'FM Quality':<20}\n"  # Headers based on the content
+    log_header += f"{'Subject ID':<20} {'Record Length (s)':<40} {'FM Quality':<20}\n"
     log_header += "-" * 50 + "\n"
-    
+
     log_rows = ""
     for _, row in df.iterrows():
         log_rows += f"{str(row['Subject ID']):<20} {str(row['IMU/iPhone record length (in seconds)']):<40} {str(row['FM quality']):<20}\n"
 
-    # Save log to the file (append mode 'a')
+    # Append log to the file
     with open(CLASSIFICATION_LOG_FILE, 'a') as log_file:
         log_file.write(log_header + log_rows + "\n")
     print(f"Excel columns log updated: {CLASSIFICATION_LOG_FILE}")
 
 def clear_log_file():
-    """Clear the log file if it exists."""
+    """
+    Clears the classification log file.
+    This function erases any previous log entries to provide a clean slate for new logs.
+    """
     if os.path.exists(CLASSIFICATION_LOG_FILE):
         with open(CLASSIFICATION_LOG_FILE, 'w') as log_file:
             log_file.write("")  # Clear the content of the file
         print(f"Log file cleared: {CLASSIFICATION_LOG_FILE}")
 
-# Clear log file before running the rest of the operations
+# Clear the log file before running the rest of the operations
 clear_log_file()
 
 # Example usage

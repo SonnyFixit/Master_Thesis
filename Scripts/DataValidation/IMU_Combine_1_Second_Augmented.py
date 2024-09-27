@@ -11,15 +11,15 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from MasterThesis_Config import SEGMENTED_IMU_DATA_FRAMES_FOLDER, COMBINED_DATA_FOLDER, LOGS_FOLDER, CLASSIFICATION_FOLDER
 
 # Paths to the necessary files
-BIG_DATASET_FILE = os.path.join(COMBINED_DATA_FOLDER, 'IMU_Segmented_BigDataset.npy')
-LOG_FILE_PATH = os.path.join(LOGS_FOLDER, 'IMU_Segmented_BigDataset_Log.txt')
-BINARY_CLASSIFICATION_FILE = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary.csv')
+BIG_DATASET_FILE = os.path.join(COMBINED_DATA_FOLDER, 'IMU_Combine_1_Second_Augmented_Dataset.npy')
+LOG_FILE_PATH = os.path.join(LOGS_FOLDER, 'IMU_Combine_1_Second_Augmented_Dataset_Log.txt')
+BINARY_CLASSIFICATION_FILE = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_Updated.csv')
 
 # Update the output path for the classification CSV file
-CLASSIFICATION_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_BigData.csv')
+CLASSIFICATION_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'FM_QualityClassification_Binary_BigData_Augmented.csv')
 
 # New output CSV file for ID, group, and range information
-SEGMENT_INFO_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'IMU_Segmented_Group_Info.csv')
+SEGMENT_INFO_OUTPUT_FILE = os.path.join(CLASSIFICATION_FOLDER, 'IMU_Segmented_Group_Info_Augmented.csv')
 
 # IDs to be excluded
 EXCLUDED_IDS = ["042"]
@@ -37,10 +37,11 @@ def read_binary_classification(file_path):
         reader = csv.reader(f)
         next(reader)  # Skip header
         for row in reader:
-            if len(row) >= 2:  # Ensure the row has at least two columns
+            if len(row) >= 3:  # Ensure the row has at least three columns (including augmented)
                 child_id = row[0].strip()  # Extract the ID
                 quality = row[1].strip()  # Extract the quality (0 or 1)
-                classifications[child_id.zfill(3)] = quality  # Ensure child_id has leading zeros
+                augmented = row[2].strip()  # Extract the augmented flag (0 or 1)
+                classifications[child_id.zfill(3)] = (quality, augmented)  # Store as tuple
     return classifications
 
 # Function to create the large dataset
@@ -132,34 +133,36 @@ def create_classification_file(child_data_info, classification_file_path, output
     # Iterate over child data info to generate classification
     for child_id, shape in child_data_info:
         num_rows = shape[0]
-        classification = classifications.get(child_id)
-        if classification is None:
+        classification_info = classifications.get(child_id)
+        if classification_info is None:
             log_message(f"No classification found for child ID: {child_id}, skipping.")
             continue
+        
+        quality, augmented = classification_info
 
         # Increment counters based on classification
-        if classification == '0':
+        if quality == '0':
             fm_minus_count += 1
-        elif classification == '1':
+        elif quality == '1':
             fm_plus_count += 1
 
         # Add classification for each row corresponding to this child
         start_index = current_index
         for i in range(num_rows):
-            classification_data.append([current_index - 1, classification])  # Adjust for the header offset
+            classification_data.append([current_index - 1, quality, augmented])
             current_index += 1
 
         end_index = current_index - 1
         # Log information about the current child data
-        log_message(f"Child ID: {child_id} - Assigned classification '{classification}' for rows {start_index} to {end_index}.")
+        log_message(f"Child ID: {child_id} - Assigned classification '{quality}' (Augmented: {augmented}) for rows {start_index} to {end_index}.")
         
         # Add information to the new segment info list
-        segment_info_data.append([child_id, classification, start_index, end_index])
+        segment_info_data.append([child_id, quality, augmented, start_index, end_index])
 
     # Write the classification data to a new CSV file
     with open(output_file_path, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(["Index", "Classification"])  # Write header
+        csv_writer.writerow(["Index", "Classification", "Augmented"])
         csv_writer.writerows(classification_data)
 
     log_message(f"Classification file created and saved to {output_file_path} with {len(classification_data)} rows")
@@ -172,7 +175,7 @@ def create_classification_file(child_data_info, classification_file_path, output
     # Write the segment info data to a new CSV file
     with open(SEGMENT_INFO_OUTPUT_FILE, 'w', newline='') as segment_csvfile:
         segment_csv_writer = csv.writer(segment_csvfile)
-        segment_csv_writer.writerow(["Child ID", "Classification", "Start Row", "End Row"])  # Header
+        segment_csv_writer.writerow(["Child ID", "Classification", "Augmented", "Start Row", "End Row"])
         segment_csv_writer.writerows(segment_info_data)
 
     log_message(f"Segment information file created and saved to {SEGMENT_INFO_OUTPUT_FILE} with {len(segment_info_data)} rows")
