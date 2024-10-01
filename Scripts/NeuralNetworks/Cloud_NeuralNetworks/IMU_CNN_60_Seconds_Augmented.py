@@ -66,10 +66,10 @@ def create_training_validation_sets_with_augmentation(data_file, classification_
         test_ids = [child_id for child_id in test_ids if child_id < 104]  # Assuming augmented children have IDs >= 104
 
         log_message(f"Number of children in training set for fold {fold}: {len(train_ids)}", log_file_path)
-        log_message(f"Training IDs for fold {fold}: {list(train_ids)}", log_file_path)  # Log training IDs
+        log_message(f"Training IDs for fold {fold}: {list(train_ids)}", log_file_path)
 
         log_message(f"Number of children in validation set for fold {fold} (without augmented): {len(test_ids)}", log_file_path)
-        log_message(f"Validation IDs for fold {fold}: {list(test_ids)}", log_file_path)  # Log validation IDs
+        log_message(f"Validation IDs for fold {fold}: {list(test_ids)}", log_file_path)
 
         train_segments = []
         train_labels = []
@@ -116,13 +116,13 @@ def create_training_validation_sets_with_augmentation(data_file, classification_
     return fold_sets
 
 
-# Dataset class
+# Dataset class for 60-second segments
 class IMUBigDataset(Dataset):
     def __init__(self, data_file, classification_file):
         self.data = np.load(data_file)
         df_classification = pd.read_csv(classification_file)
         self.labels = torch.tensor(df_classification['Classification'].values, dtype=torch.long)
-        self.lengths = [100] * len(self.labels)  # Each sample in the big dataset has 100 timesteps (fixed length)
+        self.lengths = [6000] * len(self.labels)  # 60-second segments have 6000 timesteps
         if len(self.labels) != len(self.data):
             raise ValueError("Mismatch between the number of labels and the number of data samples.")
 
@@ -132,7 +132,7 @@ class IMUBigDataset(Dataset):
     def __getitem__(self, idx):
         return self.data[idx], self.labels[idx]
 
-# Definition of the CNN model
+# Definition of the CNN model for 60-second segments
 class IMUCNN(nn.Module):
     def __init__(self, input_size=24, num_classes=2):
         super(IMUCNN, self).__init__()
@@ -140,10 +140,10 @@ class IMUCNN(nn.Module):
         self.conv2 = nn.Conv1d(64, 128, kernel_size=3, padding=1)
         self.conv3 = nn.Conv1d(128, 256, kernel_size=3, padding=1)
         self.conv4 = nn.Conv1d(256, 512, kernel_size=3, padding=1)
-        self.conv5 = nn.Conv1d(512, 512, kernel_size=3, padding=1)  # Added layer
-        self.conv6 = nn.Conv1d(512, 512, kernel_size=3, padding=1)  # Added layer
+        self.conv5 = nn.Conv1d(512, 512, kernel_size=3, padding=1)
+        self.conv6 = nn.Conv1d(512, 512, kernel_size=3, padding=1)
         self.pool = nn.MaxPool1d(kernel_size=2, stride=2)
-        self.dropout = nn.Dropout(p=0.7)  # Increased dropout rate
+        self.dropout = nn.Dropout(p=0.7)
 
         # Calculate the output size after the last convolutional and pooling layers
         self.flatten_size = self.calculate_flatten_size()
@@ -153,8 +153,7 @@ class IMUCNN(nn.Module):
         self.fc2 = nn.Linear(256, num_classes)
 
     def calculate_flatten_size(self):
-        # Simulate passing through layers to calculate the output size
-        sample_input = torch.zeros(1, 24, 100)  # Sample data with the same dimension as the input data
+        sample_input = torch.zeros(1, 24, 6000)  # 60-second sample
         x = sample_input
         x = torch.relu(self.conv1(x))
         x = self.pool(x)
@@ -195,6 +194,9 @@ def train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Check if GPU is available
     dataset = IMUBigDataset(data_file, classification_file)
     fold_sets = create_training_validation_sets_with_augmentation(data_file, classification_file, segment_info_file, log_file_path)
+
+    fold_results = []
+    all_confusion_matrices = []
 
     fold = 1
     for train_segments, train_labels, val_segments, val_labels in fold_sets:
@@ -264,12 +266,23 @@ def train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_
                     result = "Correct" if actual_label == predicted_label else "Incorrect"
                     log_message(f"Segment ID: {segment_id}, Actual: {actual_label}, Predicted: {predicted_label}, Result: {result}", log_file_path)
 
-        # Calculating metrics
+        # Calculating metrics for the current fold
         accuracy = (np.array(all_labels) == np.array(all_predictions)).mean()
-        precision = precision_score(all_labels, all_predictions, average='weighted')
-        recall = recall_score(all_labels, all_predictions, average='weighted')
-        f1 = f1_score(all_labels, all_predictions, average='weighted')
+        precision = precision_score(all_labels, all_predictions, average='macro')
+        recall = recall_score(all_labels, all_predictions, average='macro')
+        f1 = f1_score(all_labels, all_predictions, average='macro')
         cm = confusion_matrix(all_labels, all_predictions)
+
+        # Storing results and confusion matrix
+        fold_results.append({
+            'Fold': fold,
+            'Accuracy': accuracy,
+            'Precision': precision,
+            'Recall': recall,
+            'F1 Score': f1,
+            'Confusion Matrix': cm
+        })
+        all_confusion_matrices.append(cm)
 
         # Logging results
         log_message("\n" + "-" * 50, log_file_path)
@@ -279,13 +292,20 @@ def train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_
 
         fold += 1
 
+    # Final summary after all folds
+    log_message("\n=== Cross-validation Summary ===", log_file_path)
+    for result in fold_results:
+        log_message(f"Fold {result['Fold']}: Accuracy: {result['Accuracy']:.4f}, Precision: {result['Precision']:.4f}, "
+                    f"Recall: {result['Recall']:.4f}, F1 Score: {result['F1 Score']:.4f}", log_file_path)
+        log_message(f"Confusion Matrix for fold {result['Fold']}:\n{result['Confusion Matrix']}", log_file_path)
+
     log_message("--- Cross-validation completed ---", log_file_path)
 
 if __name__ == "__main__":
     # Paths to files on Google Drive
-    data_file = "/content/drive/My Drive/IMU_Combine_1_Second_Augmented_Dataset.npy"
-    classification_file = "/content/drive/My Drive/FM_QualityClassification_Binary_BigData_Augmented.csv"
-    segment_info_file = "/content/drive/My Drive/IMU_Segmented_Group_Info_Augmented.csv"
+    data_file = "/content/drive/My Drive/IMU_Segmented_60s_BigDataset_Augmented.npy"
+    classification_file = "/content/drive/My Drive/FM_QualityClassification_Binary_60s_BigData_Augmented.csv"
+    segment_info_file = "/content/drive/My Drive/IMU_Segmented_60s_Group_Info_Augmented.csv"
     log_file_path = "/content/drive/My Drive/CNN_BigData_Augmented_Log_Extended.txt"
 
     train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_file_path)

@@ -8,18 +8,27 @@ from torch.utils.data import Dataset, DataLoader, Subset
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 from datetime import datetime
-from google.colab import drive
 
-# Mounting Google Drive
-drive.mount('/content/drive')
+# Check if the script is running in Google Colab
+try:
+    import google.colab
+    IN_COLAB = True
+except ImportError:
+    IN_COLAB = False
 
-# Function to log messages
+# Mounting Google Drive if running in Google Colab
+if IN_COLAB:
+    from google.colab import drive
+    drive.mount('/content/drive')
+
+# Function to log messages with timestamps
 def log_message(message, log_file_path):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(log_file_path, 'a') as log_file:
-        log_file.write(message + '\n')
-    print(message)
+        log_file.write(f"[{timestamp}] {message}\n")
+    print(f"[{timestamp}] {message}")
 
-# Function to create training and validation sets with augmentation
+# Function to create training and validation sets with augmentation, ensuring validation sets contain at least one original FM- sample
 def create_training_validation_sets_with_augmentation(data_file, classification_file, segment_info_file, log_file_path):
     log_message("Loading dataset for training/validation set creation with augmentation...", log_file_path)
 
@@ -49,6 +58,13 @@ def create_training_validation_sets_with_augmentation(data_file, classification_
     log_message(f"Total number of FM- children: {num_fm_minus}", log_file_path)
     log_message(f"Total number of augmented samples: {num_augmented_samples}", log_file_path)
 
+    # Separate FM- and FM+ children IDs
+    fm_minus_ids = df_segment_info[df_segment_info['Classification'] == 0]['Child ID'].unique()
+    fm_plus_ids = df_segment_info[df_segment_info['Classification'] == 1]['Child ID'].unique()
+
+    # Log FM- IDs
+    log_message(f"FM- children IDs: {list(fm_minus_ids)}", log_file_path)
+
     # Proceed with creating the training and validation sets
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
     unique_ids = df_segment_info['Child ID'].unique()
@@ -56,19 +72,31 @@ def create_training_validation_sets_with_augmentation(data_file, classification_
 
     fold_sets = []
     fold = 1
+
     for train_idx, test_idx in skf.split(unique_ids, labels):
         log_message(f"\n--- Creating training and validation sets for fold {fold} ---", log_file_path)
 
         train_ids = unique_ids[train_idx]
         test_ids = unique_ids[test_idx]
 
-        # Exclude augmented children from the validation set
+        # Ensure augmented children are excluded from the validation set
         test_ids = [child_id for child_id in test_ids if child_id < 104]  # Assuming augmented children have IDs >= 104
+
+        # Ensure there is at least one original FM- in the validation set
+        fm_minus_in_test = [child_id for child_id in test_ids if child_id in fm_minus_ids]
+        if len(fm_minus_in_test) < 1:
+            # Move one FM- from train to test if there are no FM- in the validation set
+            fm_minus_in_train = [child_id for child_id in train_ids if child_id in fm_minus_ids]
+            if fm_minus_in_train:
+                fm_minus_to_move = fm_minus_in_train[0]
+                test_ids = np.append(test_ids, fm_minus_to_move)  # Add FM- to test set
+                train_ids = np.setdiff1d(train_ids, [fm_minus_to_move])  # Remove from train set
+                log_message(f"Moved FM- child {fm_minus_to_move} from training to validation to ensure at least one FM- in fold {fold}.", log_file_path)
 
         log_message(f"Number of children in training set for fold {fold}: {len(train_ids)}", log_file_path)
         log_message(f"Training IDs for fold {fold}: {list(train_ids)}", log_file_path)  # Log training IDs
 
-        log_message(f"Number of children in validation set for fold {fold} (without augmented): {len(test_ids)}", log_file_path)
+        log_message(f"Number of children in validation set for fold {fold}: {len(test_ids)}", log_file_path)
         log_message(f"Validation IDs for fold {fold}: {list(test_ids)}", log_file_path)  # Log validation IDs
 
         train_segments = []
@@ -95,7 +123,7 @@ def create_training_validation_sets_with_augmentation(data_file, classification_
             train_segments.extend(df_classification.loc[valid_segments][real_segments].index.tolist())
             train_labels.extend(df_classification.loc[valid_segments][real_segments]['Classification'].values)
 
-        # Create validation set
+        # Create validation set (only real samples, no augmented ones)
         for child_id in test_ids:
             child_data = df_segment_info[df_segment_info['Child ID'] == child_id]
             valid_segments = child_data['Segment_ID'].values - 1
@@ -115,7 +143,6 @@ def create_training_validation_sets_with_augmentation(data_file, classification_
     log_message("--- Training and validation sets creation completed with augmentation ---", log_file_path)
     return fold_sets
 
-
 # Dataset class
 class IMUBigDataset(Dataset):
     def __init__(self, data_file, classification_file):
@@ -132,69 +159,68 @@ class IMUBigDataset(Dataset):
     def __getitem__(self, idx):
         return self.data[idx], self.labels[idx]
 
-# Definition of the CNN model
-class IMUCNN(nn.Module):
-    def __init__(self, input_size=24, num_classes=2):
-        super(IMUCNN, self).__init__()
+# Definition of the CNN-LSTM hybrid model
+class IMUCNNLSTM(nn.Module):
+    def __init__(self, input_size=24, hidden_size=256, num_lstm_layers=3, num_classes=2, dropout=0.6):
+        super(IMUCNNLSTM, self).__init__()
+        
+        # CNN Layers
         self.conv1 = nn.Conv1d(in_channels=input_size, out_channels=64, kernel_size=3, padding=1)
         self.conv2 = nn.Conv1d(64, 128, kernel_size=3, padding=1)
         self.conv3 = nn.Conv1d(128, 256, kernel_size=3, padding=1)
         self.conv4 = nn.Conv1d(256, 512, kernel_size=3, padding=1)
-        self.conv5 = nn.Conv1d(512, 512, kernel_size=3, padding=1)  # Added layer
-        self.conv6 = nn.Conv1d(512, 512, kernel_size=3, padding=1)  # Added layer
+        self.conv5 = nn.Conv1d(512, 512, kernel_size=3, padding=1)
+        self.conv6 = nn.Conv1d(512, 512, kernel_size=3, padding=1)
+        
         self.pool = nn.MaxPool1d(kernel_size=2, stride=2)
-        self.dropout = nn.Dropout(p=0.7)  # Increased dropout rate
-
-        # Calculate the output size after the last convolutional and pooling layers
-        self.flatten_size = self.calculate_flatten_size()
-
-        # Fully connected layers
-        self.fc1 = nn.Linear(self.flatten_size, 256)
-        self.fc2 = nn.Linear(256, num_classes)
-
-    def calculate_flatten_size(self):
-        # Simulate passing through layers to calculate the output size
-        sample_input = torch.zeros(1, 24, 100)  # Sample data with the same dimension as the input data
-        x = sample_input
-        x = torch.relu(self.conv1(x))
-        x = self.pool(x)
-        x = torch.relu(self.conv2(x))
-        x = self.pool(x)
-        x = torch.relu(self.conv3(x))
-        x = self.pool(x)
-        x = torch.relu(self.conv4(x))
-        x = self.pool(x)
-        x = torch.relu(self.conv5(x))
-        x = self.pool(x)
-        x = torch.relu(self.conv6(x))
-        x = self.pool(x)
-        flatten_size = x.view(1, -1).size(1)  # Calculate the output size after flattening
-        return flatten_size
-
+        self.dropout_cnn = nn.Dropout(p=dropout)
+        
+        # LSTM Layers
+        self.lstm = nn.LSTM(input_size=512, hidden_size=hidden_size, num_layers=num_lstm_layers, batch_first=True, dropout=dropout)
+        self.dropout_lstm = nn.Dropout(dropout)
+        
+        # Fully connected layer
+        self.fc = nn.Linear(hidden_size, num_classes)
+    
     def forward(self, x):
-        x = x.transpose(1, 2)  # Change dimensions for Conv1d
+        # x shape: [batch_size, seq_length, input_size]
+        x = x.transpose(1, 2)  # Change to [batch_size, input_size, seq_length] for Conv1d
+        
+        # CNN part
         x = torch.relu(self.conv1(x))
-        x = self.pool(x)
         x = torch.relu(self.conv2(x))
-        x = self.pool(x)
         x = torch.relu(self.conv3(x))
-        x = self.pool(x)
+        x = self.pool(x)  # First pooling
         x = torch.relu(self.conv4(x))
-        x = self.pool(x)
         x = torch.relu(self.conv5(x))
-        x = self.pool(x)
         x = torch.relu(self.conv6(x))
-        x = self.pool(x)
-        x = x.view(x.size(0), -1)  # Flatten before entering the fully connected layer
-        x = self.dropout(torch.relu(self.fc1(x)))
-        x = self.fc2(x)
-        return x
+        x = self.pool(x)  # Second pooling
+        x = self.dropout_cnn(x)
+        
+        # x shape after CNN: [batch_size, channels, seq_length]
+        # We need to transpose to [batch_size, seq_length, channels] for LSTM
+        x = x.transpose(1, 2)
+        
+        # LSTM part
+        output, (hn, cn) = self.lstm(x)
+        
+        hn = self.dropout_lstm(hn[-1])  # Take the output of the last LSTM layer
+        out = self.fc(hn)
+        
+        return out
 
-# Main training function
-def train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_file_path):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Check if GPU is available
+# Main training function for CNN-LSTM hybrid model
+def train_cnn_lstm_on_bigdata(data_file, classification_file, segment_info_file, log_file_path):
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Use GPU if available, otherwise CPU
     dataset = IMUBigDataset(data_file, classification_file)
     fold_sets = create_training_validation_sets_with_augmentation(data_file, classification_file, segment_info_file, log_file_path)
+
+    # Lists to summarize results across all folds
+    overall_accuracies = []
+    overall_precisions = []
+    overall_recalls = []
+    overall_f1_scores = []
+    overall_confusion_matrices = []
 
     fold = 1
     for train_segments, train_labels, val_segments, val_labels in fold_sets:
@@ -204,18 +230,18 @@ def train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_
         train_dataset = Subset(dataset, train_segments)
         val_dataset = Subset(dataset, val_segments)
 
-        # Class weight settings with higher emphasis on negative samples
+        # Class weight settings
         class_counts = np.bincount(train_labels)
-        weight_for_class_0 = max(class_counts) / class_counts[0] * 2.0  # Increased weight for negative class
+        weight_for_class_0 = max(class_counts) / class_counts[0] * 1.0  # Increased weight for negative class
         weight_for_class_1 = 1.0
         class_weights = torch.tensor([weight_for_class_0, weight_for_class_1], dtype=torch.float).to(device)
 
         # DataLoader
-        train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True, num_workers=2, persistent_workers=True)
-        val_loader = DataLoader(val_dataset, batch_size=64, shuffle=False, num_workers=2, persistent_workers=True)
+        train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, num_workers=2, persistent_workers=IN_COLAB)
+        val_loader = DataLoader(val_dataset, batch_size=128, shuffle=True, num_workers=2, persistent_workers=IN_COLAB)
 
         # Model initialization
-        model = IMUCNN(input_size=24, num_classes=2).to(device)
+        model = IMUCNNLSTM(input_size=24, hidden_size=256, num_lstm_layers=3, num_classes=2, dropout=0.6).to(device)
         criterion = nn.CrossEntropyLoss(weight=class_weights)
         optimizer = optim.AdamW(model.parameters(), lr=0.0005, weight_decay=1e-4)
         scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2, verbose=True)
@@ -252,7 +278,8 @@ def train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_
             for idx, (inputs, labels) in enumerate(val_loader):
                 inputs, labels = inputs.to(device), labels.to(device)
                 outputs = model(inputs)
-                _, predicted = torch.max(outputs.data, 1)
+                probabilities = nn.functional.softmax(outputs, dim=1)
+                predicted = (probabilities[:, 1] > 0.3).long()
 
                 all_labels.extend(labels.cpu().numpy())
                 all_predictions.extend(predicted.cpu().numpy())
@@ -264,28 +291,50 @@ def train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_
                     result = "Correct" if actual_label == predicted_label else "Incorrect"
                     log_message(f"Segment ID: {segment_id}, Actual: {actual_label}, Predicted: {predicted_label}, Result: {result}", log_file_path)
 
-        # Calculating metrics
         accuracy = (np.array(all_labels) == np.array(all_predictions)).mean()
-        precision = precision_score(all_labels, all_predictions, average='weighted')
-        recall = recall_score(all_labels, all_predictions, average='weighted')
-        f1 = f1_score(all_labels, all_predictions, average='weighted')
+        precision = precision_score(all_labels, all_predictions, average='weighted', zero_division=0)
+        recall = recall_score(all_labels, all_predictions, average='weighted', zero_division=0)
+        f1 = f1_score(all_labels, all_predictions, average='weighted', zero_division=0)
         cm = confusion_matrix(all_labels, all_predictions)
 
-        # Logging results
+        # Logging results for the fold
         log_message("\n" + "-" * 50, log_file_path)
         log_message(f"--- Fold {fold} results ---", log_file_path)
         log_message(f"Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}", log_file_path)
         log_message(f"Confusion Matrix:\n{cm}", log_file_path)
 
+        # Saving results for the fold
+        overall_accuracies.append(accuracy)
+        overall_precisions.append(precision)
+        overall_recalls.append(recall)
+        overall_f1_scores.append(f1)
+        overall_confusion_matrices.append(cm)
+
         fold += 1
 
+    # Logging cross-validation summary
+    log_message("\n" + "=" * 50, log_file_path)
     log_message("--- Cross-validation completed ---", log_file_path)
+    for fold_idx in range(len(overall_accuracies)):
+        log_message(f"\n--- Fold {fold_idx+1} Summary ---", log_file_path)
+        log_message(f"Accuracy: {overall_accuracies[fold_idx]:.4f}, Precision: {overall_precisions[fold_idx]:.4f}, Recall: {overall_recalls[fold_idx]:.4f}, F1 Score: {overall_f1_scores[fold_idx]:.4f}", log_file_path)
+        log_message(f"Confusion Matrix:\n{overall_confusion_matrices[fold_idx]}", log_file_path)
+
+    log_message("\n" + "=" * 50, log_file_path)
+    log_message(f"Overall Accuracy: {np.mean(overall_accuracies):.4f}, Precision: {np.mean(overall_precisions):.4f}, Recall: {np.mean(overall_recalls):.4f}, F1 Score: {np.mean(overall_f1_scores):.4f}", log_file_path)
 
 if __name__ == "__main__":
-    # Paths to files on Google Drive
-    data_file = "/content/drive/My Drive/IMU_Combine_1_Second_Augmented_Dataset.npy"
-    classification_file = "/content/drive/My Drive/FM_QualityClassification_Binary_BigData_Augmented.csv"
-    segment_info_file = "/content/drive/My Drive/IMU_Segmented_Group_Info_Augmented.csv"
-    log_file_path = "/content/drive/My Drive/CNN_BigData_Augmented_Log_Extended.txt"
+    if IN_COLAB:
+        # Paths to files on Google Drive if running in Google Colab
+        data_file = "/content/drive/My Drive/IMU_Combine_1_Second_Augmented_Dataset.npy"
+        classification_file = "/content/drive/My Drive/FM_QualityClassification_Binary_BigData_Augmented.csv"
+        segment_info_file = "/content/drive/My Drive/IMU_Segmented_Group_Info_Augmented.csv"
+        log_file_path = "/content/drive/My Drive/CNN_LSTM_BigData_Augmented_Log.txt"
+    else:
+        # Paths to files on local machine
+        data_file = "./IMU_Combine_1_Second_Augmented_Dataset.npy"
+        classification_file = "./FM_QualityClassification_Binary_BigData_Augmented.csv"
+        segment_info_file = "./IMU_Segmented_Group_Info_Augmented.csv"
+        log_file_path = "./CNN_LSTM_BigData_Augmented_Log.txt"
 
-    train_cnn_on_bigdata(data_file, classification_file, segment_info_file, log_file_path)
+    train_cnn_lstm_on_bigdata(data_file, classification_file, segment_info_file, log_file_path)
