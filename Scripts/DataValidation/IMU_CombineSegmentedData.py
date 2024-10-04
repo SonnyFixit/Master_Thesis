@@ -2,10 +2,46 @@ import os
 import sys
 import numpy as np
 from datetime import datetime
+from MasterThesis_Config import SEGMENTED_IMU_DATA_FRAMES_FOLDER, COMBINED_DATA_FOLDER, IMU_SUFFIXES
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from MasterThesis_Config import SEGMENTED_IMU_DATA_FRAMES_FOLDER, COMBINED_DATA_FOLDER, IMU_SUFFIXES
+
+
+"""
+IMU Data Combination Script
+
+This script is designed to combine segmented IMU (Inertial Measurement Unit) data for a specific child identified by a unique ID. 
+The script concatenates data from multiple suffixes, producing a single output file per child. Optionally, it allows limiting the 
+number of samples per segment to a predefined count. This is particularly useful in processing and preparing data for further analysis, 
+such as machine learning model training.
+
+Key Features:
+- Combines segmented IMU data for a given child across multiple suffixes.
+- Supports limiting the number of samples per segment if desired.
+- Logs all steps to a log file with timestamps, providing visibility into the process.
+- Ensures that the combined data is stored in a specified output folder.
+
+Techniques:
+- **Data Concatenation**: Combines segmented data across multiple suffixes along the feature axis.
+- **Sample Limiting**: Optionally limits the number of samples to a fixed count per segment.
+
+Dependencies:
+- Numpy is used to handle numerical operations and loading/saving of data files.
+- Standard Python modules such as `os` for path operations and `datetime` for logging.
+
+Parameters:
+- `unique_id`: A string representing the unique identifier for the child whose data is being combined.
+- `folder_path`: Path to the folder containing segmented IMU data.
+- `imu_suffixes`: List of suffixes representing different IMU data segments.
+- `output_folder`: Path to the folder where the combined data will be saved.
+- `num_samples`: Number of samples to limit each file to if `limit_samples` is True.
+- `limit_samples`: Boolean flag to enable or disable sample limitation.
+
+Example Usage:
+    result = combine_segmented_imu_data(unique_id="001", limit_samples=True)
+    print(result)
+"""
 
 # Path to the log file
 LOG_FILE_PATH = r'C:\GitRepositories\Master_Thesis\logs\IMU_Segmented_Combined_Log.txt'

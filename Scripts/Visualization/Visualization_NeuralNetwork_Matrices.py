@@ -4,6 +4,35 @@ import pandas as pd
 import numpy as np
 import os
 
+"""
+IMU Confusion Matrix and Performance Metrics Visualization
+
+This script generates confusion matrix heatmaps and performance metrics visualizations for a classification model, 
+specifically for multiple folds of cross-validation. The confusion matrices represent the predicted and true labels 
+for a binary classification task, and the performance metrics (Accuracy, Precision, Recall, F1 Score) are displayed 
+in a table format.
+
+Key Features:
+- Generates labeled heatmaps for confusion matrices with custom color palettes.
+- Saves each confusion matrix as a PNG file in a specified output directory.
+- Creates a table of performance metrics for each fold, saving it both as an image and a CSV file for further analysis.
+
+Dependencies:
+- **Matplotlib**: For creating and saving visualizations.
+- **Seaborn**: For enhanced styling and heatmap plotting.
+- **Pandas**: For handling performance metrics in tabular format.
+- **Numpy**: For numerical operations (in this case, constructing confusion matrix labels).
+
+Parameters:
+- `confusion_matrices_cnn`: Dictionary containing confusion matrices for each fold of a cross-validation experiment.
+- `metrics_cnn`: Dictionary of performance metrics (Accuracy, Precision, Recall, F1 Score) for each fold.
+- `output_dir`: Path to the directory where the visualizations will be saved. Defaults to a folder on the Desktop.
+
+Example Usage:
+    Run the script to generate confusion matrix heatmaps and metrics summaries for CNN model performance.
+
+"""
+
 # Define confusion matrices for each fold (these are examples; you can replace them with any confusion matrices)
 confusion_matrices_cnn = {
     "Fold 1": [[839, 0], [953, 7900]],
